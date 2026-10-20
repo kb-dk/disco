@@ -19,11 +19,12 @@ use APP\template\TemplateManager;
 
 class DiscoPageHandler extends \APP\handler\Handler {
 
-    /** @var StaticPagesPlugin The static pages plugin */
-    static $plugin;
+    /** @var DiscoPlugin The disco plugin */
+    protected $plugin;
 
     public function __construct(DiscoPlugin $plugin)
     {
+        parent::__construct();
         $this->plugin = $plugin;
     }
 

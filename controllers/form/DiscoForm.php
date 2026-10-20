@@ -31,6 +31,9 @@ class DiscoForm extends \PKP\form\Form {
     /** @var DiscoPlugin Disco plugin */
     var $_plugin;
 
+    /** @var string Requirement category being saved */
+    var $_category;
+
     /**
      * Constructor
      * @param $discoPlugin DiscoPlugin The disco plugin

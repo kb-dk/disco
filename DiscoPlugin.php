@@ -139,12 +139,9 @@ class DiscoPlugin extends GenericPlugin {
             return false;
 
         if ($this->getEnabled()) {
-                      
-            import('plugins.generic.disco.classes.DiscoDAO');
             $discoDao = new DiscoDAO();
             DAORegistry::registerDAO('DiscoDAO', $discoDao);
-            
-            import('plugins.generic.disco.classes.DiscoMetadataQualityDAO');
+
             $discoMetadataQualityDAO = new DiscoMetadataQualityDAO();
             DAORegistry::registerDAO('DiscoMetadataQualityDAO', $discoMetadataQualityDAO);
 
@@ -198,11 +195,8 @@ class DiscoPlugin extends GenericPlugin {
         $discoDao = DAORegistry::getDAO('DiscoDAO');
         $discoIterator = $discoDao->getByContextId($contextId);
         $disco = $discoIterator->next();
-        if($disco) {
-            $discoId = $disco->getId();
-        }
-        if ($discoId > 0) {
-            $this->_discoId = $discoId;
+        if ($disco && $disco->getId() > 0) {
+            $this->_discoId = $disco->getId();
         }
 
         $automaticChecks = $this->getAutomaticChecks($context);
@@ -256,17 +250,17 @@ class DiscoPlugin extends GenericPlugin {
         $output = &$args[2];
         $request = Application::get()->getRequest();
         $context = $request->getContext();
+        if (!$context) {
+            return false;
+        }
         $contextId = $context->getId();
 
         // Get the disco settings
         $discoDao = DAORegistry::getDAO('DiscoDAO');
         $discoIterator = $discoDao->getByContextId($contextId);
         $disco = $discoIterator->next();
-        if ($disco) {
-            $discoId = $disco->getId();
-        }
-        if ($discoId > 0) {
-            $this->_discoId = $discoId;
+        if ($disco && $disco->getId() > 0) {
+            $this->_discoId = $disco->getId();
         }
 
         if ($disco && $disco->getBadgesAvailable()) {
@@ -302,9 +296,7 @@ class DiscoPlugin extends GenericPlugin {
         $badgesAvailability = array();
 
         $automaticChecks = $this->getAutomaticChecks($context);
-        if($disco){
-            $variables = $this->getVariables($disco);
-        }
+        $variables = $disco ? $this->getVariables($disco) : array();
         
        $badgesAvailability["availableContent"] = false;
         $badgesAvailability["communityOwned"] = false;
@@ -317,29 +309,29 @@ class DiscoPlugin extends GenericPlugin {
         $badgesAvailability["regularPeriodicity"] = false;
         $badgesAvailability["scholarlyJournal"] = false;
 
-        if ($variables["fullContentAvailable"] && $automaticChecks["appearance"]["fullContentAvailable"]) {
+        if (!empty($variables["fullContentAvailable"]) && $automaticChecks["appearance"]["fullContentAvailable"]) {
             $badgesAvailability["availableContent"] = true;
         }
 
-        if ($variables["ownershipScience"]) {
+        if (!empty($variables["ownershipScience"])) {
             $badgesAvailability["communityOwned"] = true;
         }
 
-        if ($variables['eIssn'] && $variables['scholarlyJournal'] && $variables['openLicence'] && $variables['noCharges'] && $variables['openAuthorship'] && $variables['ownershipScience']) {
+        if (!empty($variables['eIssn']) && !empty($variables['scholarlyJournal']) && !empty($variables['openLicence']) && !empty($variables['noCharges']) && !empty($variables['openAuthorship']) && !empty($variables['ownershipScience'])) {
             $badgesAvailability["diamondJournal"] = true;
         }
 
-        if ($variables["usingDOIs"] && $automaticChecks["metadataRequirements"]["usingDOIs"]) {
+        if (!empty($variables["usingDOIs"]) && $automaticChecks["metadataRequirements"]["usingDOIs"]) {
             $badgesAvailability["doiUsed"] = true;
         }
 
         $badgesAvailability["geographicalDiversity"] = false;
 
-        if ($variables["noApc"] || $variables["noCharges"]) {
+        if (!empty($variables["noApc"]) || !empty($variables["noCharges"])) {
             $badgesAvailability["noApc"] = true;
         }
 
-        if ($variables["openAuthorship"]) {
+        if (!empty($variables["openAuthorship"])) {
             $badgesAvailability["openToAllAuthors"] = true;
         }
 
@@ -347,11 +339,11 @@ class DiscoPlugin extends GenericPlugin {
             $badgesAvailability["plagiarismCheckImplemented"] = true;
         }
 
-        if ($variables["scholarlyJournal"]) {
+        if (!empty($variables["scholarlyJournal"])) {
             $badgesAvailability["scholarlyJournal"] = true;
         }
 
-        if ($variables["periodicity"]) {
+        if (!empty($variables["periodicity"])) {
             $badgesAvailability["regularPeriodicity"] = true;
         }
         
@@ -408,7 +400,7 @@ class DiscoPlugin extends GenericPlugin {
         $metadataQuality["language"] = $discoMetadataQualityDAO->getCountByArticleLocale($contextId);
 //        $metadataQuality["subject"] =;
 //        $metadataQuality["fileLocation"] =;
-        $metadataQuality["alternateIdentifier"] = $discoMetadataQualityDAO->getCountByPublicationSettings($contextId, "pub-id::doi", false);
+        $metadataQuality["alternateIdentifier"] = $discoMetadataQualityDAO->getCountByDoi($contextId);
 //        $metadataQuality["relatedIdentifier"] =;
 //        $metadataQuality["format"] =;
         $metadataQuality["source"] = $discoMetadataQualityDAO->getCountByPublicationSettings($contextId, "source");
@@ -847,6 +839,7 @@ class DiscoPlugin extends GenericPlugin {
         
         $variables['scholarlyJournal'] = (bool) $disco->getScholarlyJournal();
         $variables['noCharges'] = (bool) $disco->getNoCharges();
+        $variables['noApc'] = (bool) $disco->getNoAPC();
         $variables['openAuthorship'] = (bool) $disco->getOpenAuthorship();
         $variables['ownershipScience'] = (bool) $disco->getOwnershipScience();
         $variables['openLicence'] = (bool) $disco->getOpenLicence();

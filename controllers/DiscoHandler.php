@@ -16,6 +16,7 @@
 namespace APP\plugins\generic\disco\controllers;
 
 
+use APP\core\Application;
 use PKP\security\authorization\ContextAccessPolicy;
 use PKP\security\Role;
 use APP\plugins\generic\disco\controllers\form\DiscoForm;
@@ -35,10 +36,6 @@ class DiscoHandler extends \APP\handler\Handler
                 array('updateDisco')
         );
         $this->plugin = $plugin;
-    }
-    
-    static function setPlugin($plugin) {
-            self::$plugin = $plugin;
     }
 
     //
@@ -75,12 +72,12 @@ class DiscoHandler extends \APP\handler\Handler
             // Save the results
             $discoForm->execute();
             
-            $redirectUrl = $request->getDispatcher()->url($request, ROUTE_PAGE, null, 'management', 'settings', array('website'), null, 'disco');
+            $redirectUrl = $request->getDispatcher()->url($request, Application::ROUTE_PAGE, null, 'management', 'settings', array('website'), null, 'disco');
             return $request->redirectUrl($redirectUrl);
 
         } else {
             // Present any errors
-            $redirectUrl = $request->getDispatcher()->url($request, ROUTE_PAGE, null, 'management', 'settings', array('website'), null, 'disco');
+            $redirectUrl = $request->getDispatcher()->url($request, Application::ROUTE_PAGE, null, 'management', 'settings', array('website'), null, 'disco');
             return $request->redirectUrl($redirectUrl);;
         }
     }
