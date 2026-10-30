@@ -355,13 +355,12 @@ class DiscoPlugin extends GenericPlugin {
      */
     function addDiscoStylesBackend($hookName, $params) {
         $templateMgr = $params[0];
-        $request = $this->getRequest();
-        $discoStyles = $this->getStyleSheetURL($request, false) . DIRECTORY_SEPARATOR . 'disco.less';
+        $discoStyles = $templateMgr->compileLess('DiscoStyles', $this->getPluginPath() . '/styles/disco.less');
 
         $templateMgr->addStylesheet(
                 'DiscoStyles',
                 $discoStyles,
-                array('contexts' => 'backend')
+                array('contexts' => 'backend', 'inline' => true)
         );
         return false;
     }
@@ -371,13 +370,12 @@ class DiscoPlugin extends GenericPlugin {
      */
     function addDiscoStylesFrontend($hookName, $params) {
         $templateMgr = $params[0];
-        $request = $this->getRequest();
-        $discoStyles = $this->getStyleSheetURL($request, false) . DIRECTORY_SEPARATOR . 'discoFrontend.less';
+        $discoStyles = $templateMgr->compileLess('DiscoStyles', $this->getPluginPath() . '/styles/discoFrontend.less');
 
         $templateMgr->addStylesheet(
                 'DiscoStyles',
                 $discoStyles,
-                array('contexts' => 'frontend')
+                array('contexts' => 'frontend', 'inline' => true)
         );
         return false;
     }
