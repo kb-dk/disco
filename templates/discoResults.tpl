@@ -34,7 +34,7 @@
                     <h3>{translate key="plugins.generic.disco.requirements"}</h3>
                     <ul>
                         {foreach from=$results["requirements"] item=requirement}                            
-                            <li class="results_requiremens {if !in_array($requirement, $results["fulfilledCriteria"])}not_fulfilled{/if}">{translate key="plugins.generic.disco.{$requirementsCategory[$requirement]}.{$requirement}"} ({translate key="plugins.generic.disco.{$requirementsCategory[$requirement]}"})</li>
+                            <li class="results_requiremens {if empty($results["fulfilledCriteria"]) || !in_array($requirement, $results["fulfilledCriteria"])}not_fulfilled{/if}">{translate key="plugins.generic.disco.{$requirementsCategory[$requirement]}.{$requirement}"} ({translate key="plugins.generic.disco.{$requirementsCategory[$requirement]}"})</li>
                             
                             {foreach from=$results["autocheckedCriteria"][$requirement] key=autoCheck item=value}      
                                 <li class="results_requiremens {if !$value}not_fulfilled{/if}">{translate key="plugins.generic.disco.{$autoCheck}.autocheck"}</li>
