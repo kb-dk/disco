@@ -1,0 +1,1147 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: Danish\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-09-30T06:56:44-07:00\n"
+"PO-Revision-Date: 2026-11-12T00:00:00+01:00\n"
+"Language: da\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "plugins.generic.disco.displayName"
+msgstr "Discoverability Companion-plugin"
+
+msgid "plugins.generic.disco.description"
+msgstr "Tjek dit tidsskrifts synlighed i forhold til kriterierne hos aggregatorer, indekseringsdatabaser og søgemaskiner."
+
+msgid "plugin.generic.disco.page.title"
+msgstr "Beskrivelse af OJS Discoverability Companion-badges"
+
+msgid "plugin.generic.disco.page.description"
+msgstr "<p>Badges er en integreret del af OJS Discoverability Companion (DISCO-pluginet).</p><p>Discoverability Companion (DISCO) er et plugin, der hjælper redaktører af videnskabelige tidsskrifter med at øge deres tidsskrifts synlighed og troværdighed ved at guide dem gennem de tekniske og redaktionelle kriterier, som de store indekseringsdatabaser stiller. Pluginet samler disse krav – som ofte ligner hinanden, men beskrives forskelligt på tværs af platforme – i én overskuelig og brugervenlig grænseflade. Ved at tydeliggøre terminologien og vise overlappende standarder gør DISCO det lettere at leve op til kravene og understøtter bedre indekseringsresultater.</p><p>En central funktion i pluginet er et sæt badges, der vises i hjemmesidens sidefod. De signalerer over for læsere og bedømmere, at tidsskriftet lever op til anerkendte standarder for kvalitet, gennemsigtighed og åbenhed.</p>"
+
+msgid "plugin.generic.disco.page.description.footer"
+msgstr "Hvis du gerne vil bruge DISCO-pluginet til dit tidsskrift, kan du downloade det fra <a href='https://github.com/munipress/disco' title='Github repository Disco Plugin' target='_blank'>GitHub</a> eller kontakte din platformsansvarlige."
+
+msgid "plugins.generic.disco.less"
+msgstr "Mindre information"
+
+msgid "plugins.generic.disco.more"
+msgstr "Mere information"
+
+msgid "plugins.generic.disco.services"
+msgstr "Tjenester"
+
+msgid "plugins.generic.disco.settings"
+msgstr "Indstillinger i OJS"
+
+msgid "plugins.generic.disco.settings.about"
+msgstr "Tidsskriftsindstillinger->Kolofon->Beskrivelse->Om tidsskriftet"
+
+msgid "plugins.generic.disco.settings.journalTitle"
+msgstr "Tidsskriftsindstillinger->Kolofon->Tidsskriftsidentitet->Titel på tidsskrift"
+
+msgid "plugins.generic.disco.settings.eIssn"
+msgstr "Tidsskriftsindstillinger->Kolofon->Udgivelsesoplysninger->Online-ISSN"
+
+msgid "plugins.generic.disco.settings.enabled"
+msgstr "Administration->Tilknyttede tidsskrifter->[Tidsskrift]->Aktivér"
+
+msgid "plugins.generic.disco.settings.ccLicense"
+msgstr "Distributionsindstillinger->Licens->Licens"
+
+msgid "plugins.generic.disco.settings.ccLicence"
+msgstr "Distributionsindstillinger->Licens->Licens"
+
+msgid "plugins.generic.disco.settings.authorGuidelines"
+msgstr "Workflow-indstillinger->Indsendelse->Retningslinjer for forfattere"
+
+msgid "plugins.generic.disco.settings.editorialTeam"
+msgstr "Tidsskriftsindstillinger->Kolofon->Redaktion"
+
+msgid "plugins.generic.disco.settings.contact"
+msgstr "Tidsskriftsindstillinger->Kontakt"
+
+msgid "plugins.generic.disco.settings.publisher"
+msgstr "Tidsskriftsindstillinger->Kolofon->Udgivelsesoplysninger"
+
+msgid "plugins.generic.disco.settings.ethics"
+msgstr "Den bedste måde at oprette en side om publiceringsetik på er at bruge muligheden <strong>Brugerdefineret side</strong> via <strong>Tilføj element</strong> under <strong>Website-indstillinger->Opsætning->Navigation</strong>. Her kan du oprette en ny side med en bestemt URL."
+
+msgid "plugins.generic.disco.settings.oai"
+msgstr "Distributionsindstillinger->Adgang->Aktivér OAI"
+
+msgid "plugins.generic.disco.settings.pluginDOI"
+msgstr "Distributionsindstillinger->DOI'er->Opsætning->DOI'er: \"Tillad, at Digital Object Identifiers (DOI'er) tildeles værker publiceret i dette tidsskrift\""
+
+msgid "plugins.generic.disco.settings.pluginDC"
+msgstr "Website-indstillinger->Plugins->Generiske plugins->Dublin Core Indexing Plugin"
+
+msgid "plugins.generic.disco.settings.pluginGS"
+msgstr "Website-indstillinger->Plugins->Generiske plugins->Google Scholar Indexing Plugin"
+
+msgid "plugins.generic.disco.settings.pluginOpenAIRE"
+msgstr "Website-indstillinger->Plugins->Generiske plugins->OpenAIRE Standard"
+
+msgid "plugins.generic.disco.settings.plagiarism"
+msgstr "Website-indstillinger->Plugins->Generiske plugins->iThenticate Plagiarism Detector Plugin"
+
+msgid "plugins.generic.disco.settings.siteAccess"
+msgstr "Adgangsindstillinger for sitet->Adgang til sitet og visning af artikelindhold"
+
+msgid "plugins.generic.disco.settings.copyrightNote"
+msgstr "Workflow-indstillinger->Indsendelse->Retningslinjer for forfattere->Oplysninger om copyright"
+
+msgid "plugins.generic.disco.settings.publishingMode"
+msgstr "Distributionsindstillinger->Adgang->Publiceringsform"
+
+msgid "plugins.generic.disco.settings.copyrightHolder"
+msgstr "Distributionsindstillinger->Licens->Copyright-indehaver"
+
+msgid "plugins.generic.disco.disco"
+msgstr "Discoverability Companion"
+
+msgid "plugins.generic.disco.description.long"
+msgstr "<p>Redaktører kan bruge Discoverability Companion-pluginet til at gennemgå centrale kriterier og få et samlet overblik over tidsskriftets synlighed.</p><p>Krav fra aggregatorer, indekseringsdatabaser og søgemaskiner er samlet i en række afsnit. Nogle kriterier tjekkes automatisk, andre kræver en hurtig manuel gennemgang via en enkel tjekliste, og nogle gives som anbefalinger.</p><p>Brug pluginet til at se, om dit tidsskrift kunne være mere synligt, og find ud af, hvad du kan gøre for at forbedre det.</p>"
+
+msgid "plugins.generic.disco.diamond.scholarlyJournal"
+msgstr "Videnskabeligt tidsskrift"
+
+msgid "plugins.generic.disco.diamond.scholarlyJournal.description"
+msgstr "Tidsskriftet skal være et videnskabeligt tidsskrift, der udvælger artikler via en eksplicit beskrevet bedømmelsesproces før og/eller efter publicering i overensstemmelse med anerkendt praksis inden for den pågældende disciplin (se også DOAS <a href='https://doi.org/10.58121/Z15S-JY03'>https://doi.org/10.58121/Z15S-JY03</a>)"
+
+msgid "plugins.generic.disco.diamond"
+msgstr "Diamant-kriterier"
+
+msgid "plugins.generic.disco.diamond.description"
+msgstr "Diamond OA-kriterierne for tidsskrifter er et sæt <strong>operationelle kriterier</strong>, der muliggør en binær opdeling mellem Diamond OA-tidsskrifter (tidsskrifter, der opfylder alle kriterierne) og ikke-Diamond OA-tidsskrifter (tidsskrifter, der ikke opfylder alle kriterierne)<br />Nedenfor ses de 6 kriterier, som de er defineret af Craft-OA-taskforcen i samarbejde med fællesskabet<br /><br />"
+
+msgid "plugins.generic.disco.diamond.openLicence"
+msgstr "Open Access med åbne licenser"
+
+msgid "plugins.generic.disco.diamond.openLicence.description"
+msgstr "Alt, hvad tidsskriftet udgiver, skal være Open Access og have en åben licens, som er angivet i metadata på artikelniveau."
+
+msgid "plugins.generic.disco.diamond.noCharges"
+msgstr "Ingen gebyrer"
+
+msgid "plugins.generic.disco.diamond.noCharges.description"
+msgstr "Publicering i tidsskriftet er ikke betinget af betaling af gebyrer af nogen art (fx artikelbehandlingsgebyrer (APC) eller medlemskontingenter). Tidsskriftet bør oplyse dette på sin hjemmeside. Frivillige bidrag fra forfattere og donationer er tilladt, så længe de ikke er en betingelse for publicering.<p>Redalyc: Tidsskriftet må hverken opkræve betaling fra forfattere eller institutioner for bedømmelse eller behandling af artikler.</p>"
+
+msgid "plugins.generic.disco.diamond.openAuthorship"
+msgstr "Åbent for alle forfattere"
+
+msgid "plugins.generic.disco.diamond.openAuthorship.description"
+msgstr "<p>Forfatterskab i tidsskriftet bør ikke være begrænset til en bestemt type tilknytning. Alle forfattere kan indsende en artikel, der er i overensstemmelse med tidsskriftets formål og fagområde.</p>"
+
+msgid "plugins.generic.disco.diamond.ownershipScience"
+msgstr "Fællesskabsejet"
+
+msgid "plugins.generic.disco.diamond.ownershipScience.description"
+msgstr "<p>Tidsskriftets titel skal ejes af offentlige eller almennyttige organisationer (eller dele heraf), hvis formål omfatter at udføre eller fremme forskning og videnskab. Det omfatter bl.a., men ikke udelukkende, forskningsudførende organisationer (RPO'er), forskningsfinansierende organisationer (RFO'er), organisationer med tilknytning til RPO'er (universitetsbiblioteker, universitetsforlag, fakulteter og institutter), forskningsinstitutter og videnskabelige selskaber. Tidsskriftet bør redegøre for sit ejerskab på sin hjemmeside.</p>"
+
+msgid "plugins.generic.disco.appearance"
+msgstr "Fremtoning"
+
+msgid "plugins.generic.disco.appearance.description"
+msgstr "Dette afsnit handler om tidsskriftets tilstedeværelse og tilgængelighed online. Når dit tidsskrift opfylder centrale kriterier som en velfungerende hjemmeside, en klar og korrekt titel og en engelsksproget forside af god kvalitet, kan det øge synligheden betydeligt. Her vurderer du, om tidsskriftets fulde indhold er tilgængeligt online, bekræfter, at der findes et eISSN, og tjekker, om indholdet er Open Access. Brug overblikket til at finde forbedringer, der kan gøre dit tidsskrift lettere at finde for læsere og indekseringstjenester."
+
+msgid "plugins.generic.disco.appearance.functionalWebsite"
+msgstr "Velfungerende hjemmeside"
+
+msgid "plugins.generic.disco.appearance.functionalWebsite.description"
+msgstr "Oplysningerne på hjemmesiden skal være korrekte, og informationsarkitektur og navigation skal sikre nem adgang til det publicerede indhold og alle andre elementer, der definerer tidsskriftet (fx redaktion, forfattervejledning, fagfællebedømmelse, adgangsmodel osv.). Tidsskriftets hjemmeside skal tydeligt linke til udgiverens hjemmeside og omvendt."
+
+msgid "plugins.generic.disco.appearance.journalUrl"
+msgstr "Tidsskriftets URL"
+
+msgid "plugins.generic.disco.appearance.journalUrl.description"
+msgstr "<p>Hvis tidsskriftet findes både online og på tryk, skal du oplyse tidsskriftets URL og hvordan man får adgang til det aktuelle fuldtekstindhold online.</p><p>Tidsskriftet skal have sin egen dedikerede URL og en forside, der er offentligt tilgængelig uden begrænsninger.</p>"
+
+msgid "plugins.generic.disco.diamond.eIssn"
+msgstr "Persistent identifikation (eISSN)"
+
+msgid "plugins.generic.disco.diamond.eIssn.description"
+msgstr "<p>Tidsskriftet skal have et registreret ISSN, som kan verificeres i ISSN-databasen (https://portal.issn.org/), og det bør vises tydeligt og ensartet på alle tidsskriftets platforme (elektronisk og/eller trykt). Hvis der findes både et trykt og et elektronisk ISSN, skal begge oplyses.</p><p>ERIH PLUS kræver et gyldigt ISSN, der er bekræftet i International ISSN Portal. Bemærk, at tidsskrifter med ISSN'er markeret som 'tildelt, men endnu ikke bekræftet' eller med gratis/uofficielle ISSN'er ikke vil blive behandlet.</p>"
+
+msgid "plugins.generic.disco.appearance.fullContentAvailable"
+msgstr "Tidsskriftets fulde publicerede indhold er tilgængeligt (er tidsskriftet tilgængeligt?) - OA"
+
+msgid "plugins.generic.disco.appearance.fullContentAvailable.description"
+msgstr "Er dit tidsskrift Open Access, så alt indhold er frit tilgængeligt online uden krav om registrering?"
+
+msgid "plugins.generic.disco.appearance.journalTitle"
+msgstr "Tidsskriftets titel"
+
+msgid "plugins.generic.disco.appearance.journalTitle.description"
+msgstr "Tidsskriftet skal have en tydelig titel, der stemmer overens med det registrerede ISSN, tidsskriftets angivne fagområde, det publicerede indhold og fællesskabets sammensætning (redaktion og forfattere). Titlen bør vises ensartet på artikel-, nummer- (hvis relevant), tidsskrifts- og hjemmesideniveau."
+
+msgid "plugins.generic.disco.appearance.metaInformationFilled"
+msgstr ""
+
+msgid "plugins.generic.disco.appearance.metaInformationFilled.description"
+msgstr ""
+
+msgid "plugins.generic.disco.appearance.qualityEnHomepage"
+msgstr "Forside af god kvalitet på engelsk"
+
+msgid "plugins.generic.disco.appearance.qualityEnHomepage.description"
+msgstr "Tidsskriftet har en engelsksproget forside af god kvalitet"
+
+msgid "plugins.generic.disco.journalDescription"
+msgstr "Beskrivelse af tidsskriftet"
+
+msgid "plugins.generic.disco.journalDescription.description"
+msgstr "Dette afsnit skal sikre, at dit tidsskrift giver de væsentlige oplysninger, der underbygger dets troværdighed, gennemsigtighed og tilgængelighed. En veldokumenteret beskrivelse af formål og fagområde, klare retningslinjer for forfattere, oplysninger om redaktionen og kontaktoplysninger er afgørende for at skabe tillid hos læsere og bidragydere. Derudover bidrager overholdelse af etiske standarder, en gennemsigtig fagfællebedømmelsesproces og publicering af originale videnskabelige artikler til tidsskriftets synlighed og omdømme i det akademiske miljø."
+
+msgid "plugins.generic.disco.journalDescription.aimsAndScopeDescribed"
+msgstr "Side med formål og fagområde"
+
+msgid "plugins.generic.disco.journalDescription.aimsAndScopeDescribed.description"
+msgstr "<p>Tidsskriftet skal have et klart defineret fagområde og en formålsbeskrivelse, der afspejler dets fokus og sammenhæng.</p><p>Det publicerede indhold bør stemme overens med tidsskriftets titel og angivne fagområde og, hvor det er relevant, med temaet for det temanummer, det indgår i.</p><p>Hvem er tidsskriftet rettet mod? Overvej din målgruppe: forskere, praktikere, studerende eller et bestemt fagligt fællesskab.</p>"
+
+msgid "plugins.generic.disco.journalDescription.authorGuidelinesDescribed"
+msgstr "Retningslinjerne for forfattere er godt beskrevet"
+
+msgid "plugins.generic.disco.journalDescription.authorGuidelinesDescribed.description"
+msgstr "Der bør være klare og fyldestgørende retningslinjer for forfattere, helst på engelsk."
+
+msgid "plugins.generic.disco.journalDescription.bibliographicInformation"
+msgstr "Bibliografiske oplysninger med latinske bogstaver"
+
+msgid "plugins.generic.disco.journalDescription.bibliographicInformation.description"
+msgstr "Referencer, navne og tilknytninger skal publiceres med latinske bogstaver, så de kan indekseres hurtigt og korrekt og let forstås af brugere over hele verden."
+
+msgid "plugins.generic.disco.journalDescription.editorialBoardPage"
+msgstr "Redaktion med oplysninger om tilknytning"
+
+msgid "plugins.generic.disco.journalDescription.editorialBoardPage.description"
+msgstr "<p>Redaktionens medlemmer skal kunne identificeres og kontaktes.</p><p>Navne og institutionelle tilknytninger – inklusive land eller region – for alle medlemmer af redaktionen (fx chefredaktør, redaktionsmedlemmer, associerede redaktører, regionale redaktører) skal oplyses. Det gælder også gæsteredaktører for temanumre.</p><p>For at hjælpe med at verificere identitet og tilknytning kan persistente digitale identifikatorer (som ORCID eller ResearcherID) eller links til institutionelle profiler også angives.</p>"
+
+msgid "plugins.generic.disco.journalDescription.contactDetailsAvailable"
+msgstr "Kontaktoplysninger er tilgængelige"
+
+msgid "plugins.generic.disco.journalDescription.contactDetailsAvailable.description"
+msgstr "<p>OJS tjekker, om der er angivet kontaktoplysninger.</p><p>Der skal være kontaktoplysninger på tidsskriftets centrale redaktions- og produktionsroller, og en offentligt tilgængelig e-mailadresse bør være tilgængelig.</p>"
+
+msgid "plugins.generic.disco.journalDescription.editorialBoardPageExists"
+msgstr "Er feltet for redaktionen udfyldt i OJS?"
+
+msgid "plugins.generic.disco.journalDescription.editorialBoardPageExists.description"
+msgstr "OJS tjekker, om siden med redaktionen findes i OJS."
+
+msgid "plugins.generic.disco.journalDescription.journalPublisherNameAvailable"
+msgstr "Navnet på tidsskriftets udgiver fremgår af hjemmesiden"
+
+msgid "plugins.generic.disco.journalDescription.journalPublisherNameAvailable.description"
+msgstr "OJS tjekker, om udgiverens navn er udfyldt. <br />Udgiverens navn skal være klart angivet, og der skal oplyses en verificerbar, fysisk adresse (ikke en postboks) for udgiverens kontor. Hvis tidsskriftet er tilknyttet eller ejet af et selskab, bør det oplyses, og der skal angives verificerbare kontaktoplysninger."
+
+msgid "plugins.generic.disco.journalDescription.peerReviewDescribed"
+msgstr "Fagfællebedømmelsesprocessen er beskrevet"
+
+msgid "plugins.generic.disco.journalDescription.peerReviewDescribed.description"
+msgstr "Tidsskriftet skal have en let tilgængelig og klar erklæring om sit engagement i fagfællebedømmelse og/eller redaktionelt tilsyn med alt publiceret indhold. Primære forskningsartikler skal underkastes ekstern fagfællebedømmelse. <br />Det publicerede indhold skal afspejle en tilstrækkelig og effektiv fagfællebedømmelse og/eller redaktionelt tilsyn. Tegn på mangelfuld fagfællebedømmelse er bl.a. artikler, der mangler videnskabelig stringens eller validitet, artikler uden for tidsskriftets fagområde eller irrelevante referencer.<br />ERIH PLUS kræver en eksplicit beskrivelse af tidsskriftets procedurer for ekstern/uafhængig fagfællebedømmelse. Som minimum skal tidsskriftets hjemmeside beskrive, hvordan processen sikrer, at bedømmerne er uafhængige af forfatterne"
+
+msgid "plugins.generic.disco.journalDescription.publicationEthicsDescribed"
+msgstr "Publiceringsetikken er godt beskrevet"
+
+msgid "plugins.generic.disco.journalDescription.publicationEthicsDescribed.description"
+msgstr "Erklæringen om publiceringsetik og videnskabelig uredelighed skal være offentligt tilgængelig. <br /> Tidsskriftet skal være åbent om sine etiske krav til forfattere og publicerede værker. Hvis tidsskriftet støtter og anvender en eller flere eksterne organisationers principper (WAME, COPE, Helsinki-deklarationen osv.), skal enten den fulde tekst af retningslinjerne gengives med korrekt kildeangivelse, eller der skal være et fungerende link til den fulde tekst."
+
+msgid "plugins.generic.disco.journalDescription.scholarlyArticles"
+msgstr "Originale videnskabelige artikler"
+
+msgid "plugins.generic.disco.journalDescription.scholarlyArticles.description"
+msgstr "<p>Tidsskriftet bør primært publicere originalt videnskabeligt materiale.</p><p>Forskningens akademiske niveau bør være egnet for et publikum af kandidater, postdocs og/eller professionelle forskere.</p><p>Krav fra Redalyc: I hvert nummer skal mindst 75 % af bidragene være originale forskningsresultater eller andre væsentlige, nye bidrag, der er relevante for tidsskriftets specifikke felt. (BCA)</p>"
+
+msgid "plugins.generic.disco.lpGalleys"
+msgstr "Landingssider / publiceringsfiler"
+
+msgid "plugins.generic.disco.lpGalleys.description"
+msgstr "Denne kategori sikrer, at hver artikel og dens tilhørende indhold præsenteres struktureret og tilgængeligt. Centrale elementer er fulde bibliografiske oplysninger, klar adgang til fuldtekst, DOI vist som URL, korrekte referencer samt unikke URL'er for artikler og deres publiceringsfiler for at forbedre synlighed og citationsnøjagtighed."
+
+msgid "plugins.generic.disco.lpGalleys.dataInJats"
+msgstr ""
+
+msgid "plugins.generic.disco.lpGalleys.dataInJats.description"
+msgstr ""
+
+msgid "plugins.generic.disco.lpGalleys.lpDoi"
+msgstr "DOI'et vises som en URL"
+
+msgid "plugins.generic.disco.lpGalleys.lpDoi.description"
+msgstr "Det gør det nemt for læsere at kopiere DOI-linket, når de citerer værket. (Læs mere om Crossrefs <a href='https://www.crossref.org/display-guidelines' target='_blank'>retningslinjer for visning af DOI</a>)"
+
+msgid "plugins.generic.disco.lpGalleys.linkToFulltext"
+msgstr "Adgang til indholdets fuldtekst"
+
+msgid "plugins.generic.disco.lpGalleys.linkToFulltext.description"
+msgstr "Det er acceptabelt, at fuldteksten ligger bag login eller betalingsmur, så længe landingssiden er tilgængelig for alle. Et DOI kan linke direkte til fuldtekstsiden i HTML, og hvis den side indeholder de nødvendige oplysninger (som beskrevet ovenfor), er en separat landingsside ikke nødvendig. Det frarådes dog at linke direkte til en PDF, da et klik på DOI'et så udløser en automatisk download."
+
+msgid "plugins.generic.disco.lpGalleys.references"
+msgstr "Passende henvisninger til litteraturen (referencer på landingssiderne)"
+
+msgid "plugins.generic.disco.lpGalleys.references.description"
+msgstr "Artikler forventes at henvise korrekt til relevant litteratur om emnet."
+
+msgid "plugins.generic.disco.lpGalleys.fullBio"
+msgstr "Fulde bibliografiske oplysninger"
+
+msgid "plugins.generic.disco.lpGalleys.fullBio.description"
+msgstr "Det hjælper brugerne med at bekræfte, at DOI'et fører til det rigtige værk."
+
+msgid "plugins.generic.disco.lpGalleys.uniqueUrlArticles"
+msgstr "Unik URL for hver artikel (landingsside) og hver publiceringsfil"
+
+msgid "plugins.generic.disco.lpGalleys.uniqueUrlArticles.description"
+msgstr "Hver artikel skal være tilgængelig som et komplet, selvstændigt fuldtekstværk med én unik URL pr. artikel (som minimum HTML eller PDF). <br/>Effektiv indeksering forudsætter, at hver artikel har sin egen URL."
+
+msgid "plugins.generic.disco.metadataRequirements"
+msgstr "Krav til metadata"
+
+msgid "plugins.generic.disco.metadataRequirements.description"
+msgstr "Denne kategori handler om kvaliteten og fuldstændigheden af metadata for at forbedre tidsskriftets synlighed og interoperabilitet. Centrale aspekter er angivelse af forfatternes tilknytning, metadata i maskinlæsbare formater med metatags, brug af OAI-PMH-protokollen, tildeling af DOI'er, titler og resuméer på engelsk samt korrekt markering af referencer for præcis indeksering og citation."
+
+msgid "plugins.generic.disco.metadataRequirements.metadataFormatOpenAIRE"
+msgstr "OpenAIRE metadataPrefix"
+
+msgid "plugins.generic.disco.metadataRequirements.metadataFormatOpenAIRE.description"
+msgstr "OpenAIRE forventer, at metadata er kodet efter det metadataformat, der er defineret i OpenAIRE Application Profile. Det anbefalede metadataPrefix er oai_openaire. Information om brugen af de enkelte egenskaber findes i afsnittet <a href='https://openaire-guidelines-for-literature-repository-managers.readthedocs.io/en/v4.0.0/application_profile.html#application-profile' target='_blank'>Application Profile Overview.</a><p>I OJS kan du bruge <a href='https://github.com/munipress/openAIREstandard' target='_blank'>openAIREstandard-pluginet</a></p>"
+
+msgid "plugins.generic.disco.metadataRequirements.markingReferences"
+msgstr "Markering af referencer"
+
+msgid "plugins.generic.disco.metadataRequirements.markingReferences.description"
+msgstr "Markér den del af artiklen, der indeholder henvisninger til andre værker, med en standardoverskrift som \"Referencer\" eller \"Litteratur\" på en linje for sig selv. De enkelte referencer i afsnittet skal enten nummereres \"1. - 2. - 3.\" eller \"[1] - [2] - [3]\" i PDF eller placeres i en \"&lt;ol&gt;\"-liste i HTML. Hver reference skal være en formel bibliografisk henvisning i et almindeligt anvendt format uden fritekstkommentarer."
+
+msgid "plugins.generic.disco.metadataRequirements.authorsAffiliations"
+msgstr "Forfatternes tilknytning er angivet"
+
+msgid "plugins.generic.disco.metadataRequirements.authorsAffiliations.description"
+msgstr "<p>Forfatterne til alle videnskabelige værker skal identificeres korrekt. Navne og institutionelle tilknytninger – inklusive land/region – for alle bidragende forfattere er påkrævet. Persistente digitale identifikatorer (som ResearcherID eller ORCID) eller links til institutionelle profiler kan angives for at fastslå forfatternes identitet og tilknytning.</p><p>ERIH PLUS kræver oplysninger om forfatternes tilknytning for alle videnskabelige artikler fra de seneste to års udgivelser, dvs. de fulde navne på de pågældende universiteter eller andre uafhængige forskningsinstitutioner. ERIH PLUS opfordrer også tidsskrifter til at angive forfatternes adresser (e-mail eller postadresse).</p>"
+
+msgid "plugins.generic.disco.metadataRequirements.machineReadableMetadataFormat"
+msgstr "Metadata i maskinlæsbart format - metatags"
+
+msgid "plugins.generic.disco.metadataRequirements.machineReadableMetadataFormat.description"
+msgstr "Hvis du bruger et repositorie- eller tidsskriftssystem som Eprints, DSpace, Digital Commons eller OJS, skal det konfigureres til at eksportere bibliografiske data i HTML-\"&lt;meta&gt;\"-tags. Google Scholar understøtter Highwire Press-tags (fx citation_title), Eprints-tags (fx eprints.title), BE Press-tags (fx bepress_citation_title) og PRISM-tags (fx prism.title). Brug kun Dublin Core-tags (fx DC.title) som sidste udvej – de fungerer dårligt for tidsskriftsartikler, fordi Dublin Core ikke har entydige felter for tidsskriftstitel, årgang, nummer og sidetal. Du kan tjekke, om disse tags findes, ved at åbne flere artikelsider og se deres HTML-kildekode."
+
+msgid "plugins.generic.disco.metadataRequirements.metadataInDCFormat"
+msgstr ""
+
+msgid "plugins.generic.disco.metadataRequirements.metadataInDCFormat.description"
+msgstr ""
+
+msgid "plugins.generic.disco.metadataRequirements.oaiPMHEnabled"
+msgstr "Brug af OAI-PMH-protokollen"
+
+msgid "plugins.generic.disco.metadataRequirements.oaiPMHEnabled.description"
+msgstr "<p>Udbydere kan få deres indhold indekseret i GoTriple på tre måder, bl.a. ved at følge GoTriples anbefalinger til teknisk opsætning og datamodel, dvs. ved at bruge OAI-PMH-protokollen og DC-metadatastandarden.</p><p>For OpenAIRE er dette den eneste mulighed for at registrere og indeksere metadata. Til \"OpenAIRE Guidelines for Literature, institutional, and thematic Repositories v 4.0\" skal du bruge <em>metadataPrefix</em> <strong>oai_openaire</strong>. Du kan bruge OJS-pluginet: <a href='https://github.com/munipress/openAIREstandard' target='_blank'>https://github.com/munipress/openAIREstandard</a></p>"
+
+msgid "plugins.generic.disco.metadataRequirements.systemLanguageCheck"
+msgstr ""
+
+msgid "plugins.generic.disco.metadataRequirements.systemLanguageCheck.description"
+msgstr ""
+
+msgid "plugins.generic.disco.metadataRequirements.usingDOIs"
+msgstr "Brug af DOI'er"
+
+msgid "plugins.generic.disco.metadataRequirements.usingDOIs.description"
+msgstr "Har tidsskriftet en digital identifikator (som DOI), eller er det medlem af Crossref?"
+
+msgid "plugins.generic.disco.metadataRequirements.titlesAbstractsInEnglish"
+msgstr "Titler og resuméer på engelsk"
+
+msgid "plugins.generic.disco.metadataRequirements.titlesAbstractsInEnglish.description"
+msgstr "Uanset hvilket sprog hovedparten af det publicerede indhold er skrevet på, skal tidsskriftet levere en præcis og forståelig engelsk oversættelse af alle artikeltitler. Videnskabelige artikler skal have resuméer, og resuméerne skal oversættes til engelsk.<p>Resuméerne skal være klare.</p><p>ERIH PLUS kræver, at alle originale artikler har et resumé på engelsk. Da ERIH PLUS-teamet skal have adgang til resuméerne for at vurdere tidsskriftet, bør de være tilgængelige online.</p>"
+
+msgid "plugins.generic.disco.metadataQuality"
+msgstr "Metadatakvalitet"
+
+msgid "plugins.generic.disco.metadataQuality.description"
+msgstr "Et overblik over metadatakrav fra forskellige databaser og tjenester. <br />Siden viser en liste over centrale metadatafelter og forklarer, hvordan de bidrager til at øge synligheden og chancen for vellykket indeksering. Den fungerer som opslagsværk, der hjælper brugerne med at forstå, hvilke metadataelementer der er vigtige for bestemte databaser, og hvordan de bruges effektivt."
+
+msgid "plugins.generic.disco.metadataQuality.accessRights"
+msgstr "Adgangsrettigheder"
+
+msgid "plugins.generic.disco.metadataQuality.accessRights.description"
+msgstr "Oplysninger om rettighederne til eller måden, hvorpå ressourcen kan tilgås. <p>OpenAIRE: <strong>Påkrævet</strong></p><p><a href='https://openaire-guidelines-for-literature-repository-managers.readthedocs.io/en/v4.0.0/field_accessrights.html#dci-accessrights' target='_blank'>https://openaire-guidelines-for-literature-repository-managers.readthedocs.io/en/v4.0.0/field_accessrights.html#dci-accessrights</a></p>"
+
+msgid "plugins.generic.disco.metadataQuality.alternateIdentifier"
+msgstr "Alternativ identifikator"
+
+msgid "plugins.generic.disco.metadataQuality.alternateIdentifier.description"
+msgstr "Typisk en persistent identifikator (fx DOI, Handle, PURL)<p>OpenAIRE: <strong>Anbefalet / valgfri</strong></p><p><a href='https://openaire-guidelines-for-literature-repository-managers.readthedocs.io/en/v4.0.0/field_alternativeidentifier.html' target='_blank'>https://openaire-guidelines-for-literature-repository-managers.readthedocs.io/en/v4.0.0/field_alternativeidentifier.html</a></p>"
+
+msgid "plugins.generic.disco.metadataQuality.articleEndPage"
+msgstr "Artiklens sidste side / Citation End Page"
+
+msgid "plugins.generic.disco.metadataQuality.articleEndPage.description"
+msgstr "OpenAIRE: <strong>Anbefalet / valgfri</strong><p><a href='https://openaire-guidelines-for-literature-repository-managers.readthedocs.io/en/v4.0.0/field_citationendpage.html' target='_blank'>https://openaire-guidelines-for-literature-repository-managers.readthedocs.io/en/v4.0.0/field_citationendpage.html</a></p>"
+
+msgid "plugins.generic.disco.metadataQuality.articleStartPage"
+msgstr "Artiklens første side / Citation Start Page"
+
+msgid "plugins.generic.disco.metadataQuality.articleStartPage.description"
+msgstr "OpenAIRE: <strong>Anbefalet / valgfri</strong><p><a href='https://openaire-guidelines-for-literature-repository-managers.readthedocs.io/en/v4.0.0/field_citationstartpage.html' target='_blank'>https://openaire-guidelines-for-literature-repository-managers.readthedocs.io/en/v4.0.0/field_citationstartpage.html</a></p>"
+
+msgid "plugins.generic.disco.metadataQuality.audience"
+msgstr "Målgruppe"
+
+msgid "plugins.generic.disco.metadataQuality.audience.description"
+msgstr "Hvem er ressourcen beregnet til eller nyttig for? <p>OpenAIRE: <strong>Anbefalet / valgfri</strong></p><p><a href='https://openaire-guidelines-for-literature-repository-managers.readthedocs.io/en/v4.0.0/field_audience.html' target='_blank'>https://openaire-guidelines-for-literature-repository-managers.readthedocs.io/en/v4.0.0/field_audience.html</a></p>"
+
+msgid "plugins.generic.disco.metadataQuality.authors"
+msgstr "Ophavspersoner / forfattere"
+
+msgid "plugins.generic.disco.metadataQuality.authors.description"
+msgstr "Publikationens forfattere angivet i prioriteret rækkefølge. Det kan være et personnavn eller navnet på en organisation/institution.<p>OpenAIRE: <strong>Påkrævet</strong></p><p><a href='https://openaire-guidelines-for-literature-repository-managers.readthedocs.io/en/v4.0.0/field_creator.html#dci-creator' target='_blank'>https://openaire-guidelines-for-literature-repository-managers.readthedocs.io/en/v4.0.0/field_creator.html#dci-creator</a></p>"
+
+msgid "plugins.generic.disco.metadataQuality.contributors"
+msgstr "Bidragyder"
+
+msgid "plugins.generic.disco.metadataQuality.contributors.description"
+msgstr "Den institution eller person, der er ansvarlig for at indsamle, forvalte, distribuere eller på anden måde bidrage til udviklingen af ressourcen.<p>OpenAIRE: <strong>Påkrævet, hvis relevant</strong></p><p><a href='https://openaire-guidelines-for-literature-repository-managers.readthedocs.io/en/v4.0.0/field_contributor.html#dci-contributor' target='_blank'>https://openaire-guidelines-for-literature-repository-managers.readthedocs.io/en/v4.0.0/field_contributor.html#dci-contributor</a></p>"
+
+msgid "plugins.generic.disco.metadataQuality.coverage"
+msgstr "Dækning"
+
+msgid "plugins.generic.disco.metadataQuality.coverage.description"
+msgstr "Omfanget af ressourcens indhold. Dækning omfatter typisk en tidsperiode (en periodebetegnelse, dato eller datointerval) eller et jurisdiktionsområde (fx en navngiven administrativ enhed). <p>OpenAIRE: <strong>Anbefalet / valgfri</strong></p><p><a href='https://openaire-guidelines-for-literature-repository-managers.readthedocs.io/en/v4.0.0/field_coverage.html' target='_blank'>https://openaire-guidelines-for-literature-repository-managers.readthedocs.io/en/v4.0.0/field_coverage.html</a></p>"
+
+msgid "plugins.generic.disco.metadataQuality.embargoPeriodDate"
+msgstr "Dato for embargoperiode"
+
+msgid "plugins.generic.disco.metadataQuality.embargoPeriodDate.description"
+msgstr "Datoer, der er relevante for at beskrive en embargoperiode.<p>OpenAIRE: <strong>Påkrævet, hvis relevant</strong></p><p><a href='https://openaire-guidelines-for-literature-repository-managers.readthedocs.io/en/v4.0.0/field_embargoenddate.html#dci-dateembargo' target='_blank'>https://openaire-guidelines-for-literature-repository-managers.readthedocs.io/en/v4.0.0/field_embargoenddate.html#dci-dateembargo</a></p>"
+
+msgid "plugins.generic.disco.metadataQuality.fileLocation"
+msgstr "Filplacering"
+
+msgid "plugins.generic.disco.metadataQuality.fileLocation.description"
+msgstr "En entydig henvisning til de filer (fx fuldtekst), som ressourcen er knyttet til.<p>OpenAIRE: <strong>Påkrævet, hvis relevant</strong></p><p><a href='https://openaire-guidelines-for-literature-repository-managers.readthedocs.io/en/v4.0.0/field_filelocation.html#aire-file' target='_blank'>https://openaire-guidelines-for-literature-repository-managers.readthedocs.io/en/v4.0.0/field_filelocation.html#aire-file</a></p>"
+
+msgid "plugins.generic.disco.metadataQuality.format"
+msgstr "Format"
+
+msgid "plugins.generic.disco.metadataQuality.format.description"
+msgstr "Indholdets format baseret på MIME-typer. <p>OpenAIRE: <strong>Påkrævet, hvis relevant</strong></p><p><a href='https://openaire-guidelines-for-literature-repository-managers.readthedocs.io/en/v4.0.0/field_format.html' target='_blank'>https://openaire-guidelines-for-literature-repository-managers.readthedocs.io/en/v4.0.0/field_format.html</a></p>"
+
+msgid "plugins.generic.disco.metadataQuality.fundingReferences"
+msgstr "Finansieringsreference"
+
+msgid "plugins.generic.disco.metadataQuality.fundingReferences.description"
+msgstr "Oplysninger om økonomisk støtte (finansiering) til den ressource, der registreres.<p>OpenAIRE: <strong>Påkrævet, hvis relevant</strong></p><p><a href='https://openaire-guidelines-for-literature-repository-managers.readthedocs.io/en/v4.0.0/field_projectid.html#aire-fundingreference' target='_blank'>https://openaire-guidelines-for-literature-repository-managers.readthedocs.io/en/v4.0.0/field_projectid.html#aire-fundingreference</a></p> <p>I OJS bør du bruge <a href='https://github.com/ajnyga/funding' target='_blank'>Funding-pluginet</a></p>"
+
+msgid "plugins.generic.disco.metadataQuality.geoLocation"
+msgstr "Geografisk placering"
+
+msgid "plugins.generic.disco.metadataQuality.geoLocation.description"
+msgstr "Det geografiske område eller den navngivne lokalitet, hvor data er indsamlet, eller som data beskriver.<p>OpenAIRE: <strong>Anbefalet / valgfri</strong></p><p><a href='https://openaire-guidelines-for-literature-repository-managers.readthedocs.io/en/v4.0.0/field_geolocation.html' target='_blank'>https://openaire-guidelines-for-literature-repository-managers.readthedocs.io/en/v4.0.0/field_geolocation.html</a></p>"
+
+msgid "plugins.generic.disco.metadataQuality.issueNumber"
+msgstr "Nummer / Citation Issue"
+
+msgid "plugins.generic.disco.metadataQuality.issueNumber.description"
+msgstr "OpenAIRE: <strong>Anbefalet / valgfri</strong><p><a href='https://openaire-guidelines-for-literature-repository-managers.readthedocs.io/en/v4.0.0/field_citationissue.html' target='_blank'>https://openaire-guidelines-for-literature-repository-managers.readthedocs.io/en/v4.0.0/field_citationissue.html</a></p>"
+
+msgid "plugins.generic.disco.metadataQuality.issueVolume"
+msgstr "Årgang / Citation Volume"
+
+msgid "plugins.generic.disco.metadataQuality.issueVolume.description"
+msgstr "Denne egenskab betragtes som en del af den bibliografiske henvisning. <p>OpenAIRE: <strong>Anbefalet / valgfri</strong></p><p><a href='https://openaire-guidelines-for-literature-repository-managers.readthedocs.io/en/v4.0.0/field_citationvolume.html' target='_blank'>https://openaire-guidelines-for-literature-repository-managers.readthedocs.io/en/v4.0.0/field_citationvolume.html</a></p>"
+
+msgid "plugins.generic.disco.metadataQuality.journalTitle"
+msgstr "Tidsskriftets titel / Citation Title"
+
+msgid "plugins.generic.disco.metadataQuality.journalTitle.description"
+msgstr "OpenAIRE: <strong>Anbefalet / valgfri</strong><p><a href='https://openaire-guidelines-for-literature-repository-managers.readthedocs.io/en/v4.0.0/field_citationtitle.html' target='_blank'>https://openaire-guidelines-for-literature-repository-managers.readthedocs.io/en/v4.0.0/field_citationtitle.html</a></p>"
+
+msgid "plugins.generic.disco.metadataQuality.language"
+msgstr "Sprog"
+
+msgid "plugins.generic.disco.metadataQuality.language.description"
+msgstr "Sproget i ressourcens intellektuelle indhold.<p>OpenAIRE: <strong>Påkrævet, hvis relevant</strong></p><p><a href='https://openaire-guidelines-for-literature-repository-managers.readthedocs.io/en/v4.0.0/field_language.html#dc-language' target='_blank'>https://openaire-guidelines-for-literature-repository-managers.readthedocs.io/en/v4.0.0/field_language.html#dc-language</a></p>"
+
+msgid "plugins.generic.disco.metadataQuality.licenseCondition"
+msgstr "Licensbetingelser"
+
+msgid "plugins.generic.disco.metadataQuality.licenseCondition.description"
+msgstr "Oplysninger om licensrettigheder i og til ressourcen.<p>OpenAIRE: <strong>Anbefalet / valgfri</strong></p><p><a href='https://openaire-guidelines-for-literature-repository-managers.readthedocs.io/en/v4.0.0/field_licensecondition.html' target='_blank'>https://openaire-guidelines-for-literature-repository-managers.readthedocs.io/en/v4.0.0/field_licensecondition.html</a></p>"
+
+msgid "plugins.generic.disco.metadataQuality.publicationDate"
+msgstr "Publiceringsdato"
+
+msgid "plugins.generic.disco.metadataQuality.publicationDate.description"
+msgstr "Datoen knyttes typisk til ressourcens oprettelse eller tilgængelighed. Den anbefalede praksis for datoværdien er defineret i en profil af ISO 8601 [W3CDTF] og følger formatet ÅÅÅÅ-MM-DD.<p>OpenAIRE: <strong>Påkrævet</strong></p><p><a href='https://openaire-guidelines-for-literature-repository-managers.readthedocs.io/en/v4.0.0/field_publicationdate.html#dci-datepublication' target='_blank'>https://openaire-guidelines-for-literature-repository-managers.readthedocs.io/en/v4.0.0/field_publicationdate.html#dci-datepublication</a></p>"
+
+msgid "plugins.generic.disco.metadataQuality.publisher"
+msgstr "Udgiver"
+
+msgid "plugins.generic.disco.metadataQuality.publisher.description"
+msgstr "En enhed, der er ansvarlig for at gøre ressourcen tilgængelig. Eksempler på en udgiver er en person, en organisation eller en tjeneste. Typisk bruges udgiverens navn til at angive enheden.<p>OpenAIRE: <strong>Påkrævet, hvis relevant</strong></p><p><a href='https://openaire-guidelines-for-literature-repository-managers.readthedocs.io/en/v4.0.0/field_publisher.html#dc-publisher' target='_blank'>https://openaire-guidelines-for-literature-repository-managers.readthedocs.io/en/v4.0.0/field_publisher.html#dc-publisher</a></p>"
+
+msgid "plugins.generic.disco.metadataQuality.relatedIdentifier"
+msgstr "Relateret identifikator"
+
+msgid "plugins.generic.disco.metadataQuality.relatedIdentifier.description"
+msgstr "En identifikator for en relateret ressource, som er forskellig fra den primære identifikator for den ressource, der registreres.<p>OpenAIRE: <strong>Anbefalet / valgfri</strong></p><p><a href='https://openaire-guidelines-for-literature-repository-managers.readthedocs.io/en/v4.0.0/field_relatedidentifier.html' target='_blank'>https://openaire-guidelines-for-literature-repository-managers.readthedocs.io/en/v4.0.0/field_relatedidentifier.html</a></p>"
+
+msgid "plugins.generic.disco.metadataQuality.resourceIdentifier"
+msgstr "Ressourceidentifikator"
+
+msgid "plugins.generic.disco.metadataQuality.resourceIdentifier.description"
+msgstr "Typisk en stabil, persistent URL. <p>OpenAIRE: <strong>Påkrævet</strong></p><p><a href='https://openaire-guidelines-for-literature-repository-managers.readthedocs.io/en/v4.0.0/field_resourceidentifier.html#dci-identifier' target='_blank'>https://openaire-guidelines-for-literature-repository-managers.readthedocs.io/en/v4.0.0/field_resourceidentifier.html#dci-identifier</a></p>"
+
+msgid "plugins.generic.disco.metadataQuality.resourceType"
+msgstr "Ressourcetype"
+
+msgid "plugins.generic.disco.metadataQuality.resourceType.description"
+msgstr "Angiver, hvilken type videnskabeligt output ressourcen repræsenterer – dvs. ressourcens genre eller form. <p>OpenAIRE: <strong>Påkrævet</strong></p><p><a href='https://openaire-guidelines-for-literature-repository-managers.readthedocs.io/en/v4.0.0/field_publicationtype.html#aire-resourcetype' target='_blank'>https://openaire-guidelines-for-literature-repository-managers.readthedocs.io/en/v4.0.0/field_publicationtype.html#aire-resourcetype</a></p><p>I OJS bør du bruge <a href='https://github.com/munipress/openAIREstandard' target='_blank'>openAIREstandard-pluginet</a></p>"
+
+msgid "plugins.generic.disco.metadataQuality.resourceVersion"
+msgstr "Ressourceversion"
+
+msgid "plugins.generic.disco.metadataQuality.resourceVersion.description"
+msgstr "Tidsskriftsartiklens status i publiceringsprocessen.<p>OpenAIRE: <strong>Anbefalet / valgfri</strong></p><p><a href='https://openaire-guidelines-for-literature-repository-managers.readthedocs.io/en/v4.0.0/field_resourceversion.html' target='_blank'>https://openaire-guidelines-for-literature-repository-managers.readthedocs.io/en/v4.0.0/field_resourceversion.html</a></p>"
+
+msgid "plugins.generic.disco.metadataQuality.size"
+msgstr "Omfang"
+
+msgid "plugins.generic.disco.metadataQuality.size.description"
+msgstr "Antal sider eller filstørrelse.<p>OpenAIRE: <strong>Anbefalet / valgfri</strong></p><p><a href='https://openaire-guidelines-for-literature-repository-managers.readthedocs.io/en/v4.0.0/field_size.html' target='_blank'>https://openaire-guidelines-for-literature-repository-managers.readthedocs.io/en/v4.0.0/field_size.html</a></p>"
+
+msgid "plugins.generic.disco.metadataQuality.source"
+msgstr "Kilde"
+
+msgid "plugins.generic.disco.metadataQuality.source.description"
+msgstr "En henvisning til en ressource, som den aktuelle ressource er afledt af.<p>OpenAIRE: <strong>Anbefalet / valgfri</strong></p><p><a href='https://openaire-guidelines-for-literature-repository-managers.readthedocs.io/en/v4.0.0/field_source.html' target='_blank'>https://openaire-guidelines-for-literature-repository-managers.readthedocs.io/en/v4.0.0/field_source.html</a></p>"
+
+msgid "plugins.generic.disco.metadataQuality.subject"
+msgstr "Emne"
+
+msgid "plugins.generic.disco.metadataQuality.subject.description"
+msgstr "Emne, nøgleord, klassifikationskode eller nøglefrase, der beskriver ressourcen. <p>OpenAIRE: <strong>Påkrævet, hvis relevant</strong></p><p><a href='https://openaire-guidelines-for-literature-repository-managers.readthedocs.io/en/v4.0.0/field_subject.html#dci-subject' target='_blank'>https://openaire-guidelines-for-literature-repository-managers.readthedocs.io/en/v4.0.0/field_subject.html#dci-subject</a> </p>"
+
+msgid "plugins.generic.disco.metadataQuality.title"
+msgstr "Titel"
+
+msgid "plugins.generic.disco.metadataQuality.title.description"
+msgstr "Et navn eller en titel, som ressourcen er kendt under. <p>OpenAIRE: <strong>Påkrævet</strong></p><p><a href='https://openaire-guidelines-for-literature-repository-managers.readthedocs.io/en/v4.0.0/field_title.html#dci-title' target='_blank'>https://openaire-guidelines-for-literature-repository-managers.readthedocs.io/en/v4.0.0/field_title.html#dci-title</a></p>"
+
+msgid "plugins.generic.disco.metadataQuality.abstract"
+msgstr "Beskrivelse"
+
+msgid "plugins.generic.disco.metadataQuality.abstract.description"
+msgstr "En kort beskrivelse af indholdet i ren tekst. <p>OpenAIRE: <strong>Påkrævet</strong></p><p><a href='https://openaire-guidelines-for-literature-repository-managers.readthedocs.io/en/v4.0.0/field_description.html#dc-description' target='_blank'>https://openaire-guidelines-for-literature-repository-managers.readthedocs.io/en/v4.0.0/field_description.html#dc-description</a></p>"
+
+msgid "plugins.generic.disco.metadataQuality.title.countCheck"
+msgstr "Antal artikler med udfyldt titel på tidsskriftets primære sprog."
+
+msgid "plugins.generic.disco.metadataQuality.authors.countCheck"
+msgstr "Antal artikler med mindst én forfatter med tilknytning."
+
+msgid "plugins.generic.disco.metadataQuality.publicationDate.countCheck"
+msgstr "Antal artikler med udfyldt publiceringsdato."
+
+msgid "plugins.generic.disco.metadataQuality.resourceType.countCheck"
+msgstr "Antal artikler i sektioner, hvor feltet for ressourcetype er udfyldt"
+
+msgid "plugins.generic.disco.metadataQuality.abstract.countCheck"
+msgstr "Antal artikler med udfyldt resumé på tidsskriftets primære sprog."
+
+msgid "plugins.generic.disco.metadataQuality.embargoPeriodDate.countCheck"
+msgstr "Antal artikler publiceret i numre med embargoperiode, dvs. artikler der ikke straks er Open Access."
+
+msgid "plugins.generic.disco.metadataQuality.language.countCheck"
+msgstr "Antal artikler med udfyldt primært sprog."
+
+msgid "plugins.generic.disco.metadataQuality.alternateIdentifier.countCheck"
+msgstr "Antal artikler med tilknyttet DOI."
+
+msgid "plugins.generic.disco.metadataQuality.source.countCheck"
+msgstr "Antal artikler med udfyldt kildefelt på tidsskriftets primære sprog."
+
+msgid "plugins.generic.disco.metadataQuality.licenseCondition.countCheck"
+msgstr "Antal artikler med udfyldt felt for licenstype."
+
+msgid "plugins.generic.disco.metadataQuality.coverage.countCheck"
+msgstr "Antal artikler med udfyldte oplysninger om dækning på tidsskriftets primære sprog."
+
+msgid "plugins.generic.disco.metadataQuality.size.countCheck"
+msgstr "Antal artikler med udfyldte sidetal."
+
+msgid "plugins.generic.disco.journalPolicy"
+msgstr "Tidsskriftets politikker"
+
+msgid "plugins.generic.disco.journalPolicy.description"
+msgstr "Denne kategori sikrer gennemsigtighed og tilgængelighed ved at beskrive tidsskriftets politikker. Den dækker bl.a. praksis for APC (artikelbehandlingsgebyrer), Open Access-politik (inklusive Creative Commons eller tilsvarende), copyrightvilkår og fravær af embargoperioder. Derudover bekræfter den, om brugerne frit kan tilgå indholdet uden registrering, med vægt på inklusion og åbenhed."
+
+msgid "plugins.generic.disco.journalPolicy.apcDescribed"
+msgstr "Beskrivelse af APC-politik"
+
+msgid "plugins.generic.disco.journalPolicy.apcDescribed.description"
+msgstr "Gebyrpolitikken bør være tydeligt beskrevet på hjemmesiden, uanset om tidsskriftet opkræver APC eller ej."
+
+msgid "plugins.generic.disco.journalPolicy.noRegistrationNeed"
+msgstr "Brugerne behøver ikke at registrere sig"
+
+msgid "plugins.generic.disco.journalPolicy.noRegistrationNeed.description"
+msgstr "Der er intet krav om, at brugerne skal registrere sig for at læse tidsskriftets indhold."
+
+msgid "plugins.generic.disco.journalPolicy.oaPolicyDescribed"
+msgstr "Open Access-politik beskrevet (CC eller tilsvarende)"
+
+msgid "plugins.generic.disco.journalPolicy.oaPolicyDescribed.description"
+msgstr "Tidsskrifter, hvor copyright-indehaveren af et videnskabeligt værk giver andre brugsret via en åben licens (Creative Commons eller tilsvarende). Det giver øjeblikkelig fri adgang til værket og tillader enhver bruger at læse, downloade, kopiere, distribuere, printe, søge i eller linke til artiklernes fuldtekst, crawle dem til indeksering, bruge dem som data i software eller bruge dem til ethvert andet lovligt formål.<p>REDALYC: Tidsskriftet skal tillade, at dets fuldtekstartikler læses, downloades, kopieres, distribueres, printes, gennemsøges eller linkes til.</p><p>Licensvilkårene for brug og genbrug af det publicerede indhold skal være tydeligt angivet på hjemmesiden. <br/>DOAJ anbefaler at bruge Creative Commons-licenser til dette formål.<br />Hvis der ikke bruges Creative Commons-licenser, bør tilsvarende vilkår anvendes. (Der skal gøres en ekstra indsats for at angive disse vilkår tydeligt.)<br />Det anbefales, at licensoplysningerne vises eller indlejres i fuldtekstartiklerne, men det er ikke et krav for optagelse i DOAJ.</p><p>ERIH Plus: Hvad er tidsskriftets Open Access-status?</p>"
+
+msgid "plugins.generic.disco.journalPolicy.copyrightTerms"
+msgstr "Copyrightvilkår er beskrevet"
+
+msgid "plugins.generic.disco.journalPolicy.copyrightTerms.description"
+msgstr "Copyrightvilkårene for det publicerede indhold skal være tydeligt angivet og adskilt fra vilkårene for selve hjemmesiden.<br />Copyrightvilkårene må ikke modsige licensvilkårene eller vilkårene i Open Access-politikken.<br />\"Alle rettigheder forbeholdes\" er aldrig passende for Open Access-indhold.<br /><a href='https://doaj.org/apply/copyright-and-licensing/' target='_blank'>Mere om copyright</a>"
+
+msgid "plugins.generic.disco.journalPolicy.noEmbargoPeriod"
+msgstr "Ingen embargoperiode"
+
+msgid "plugins.generic.disco.journalPolicy.noEmbargoPeriod.description"
+msgstr "Fuldteksten af alt indhold skal være frit og åbent tilgængelig uden forsinkelse."
+
+msgid "plugins.generic.disco.regularity"
+msgstr "Regelmæssighed"
+
+msgid "plugins.generic.disco.regularity.description"
+msgstr "Denne kategori vurderer, hvor konsekvent og pålideligt tidsskriftet udgiver. Den ser på regelmæssig udgivelsesfrekvens, en veldokumenteret udgivelseshistorik og overholdelse af udgivelsesplaner eller fastlagte udgivelsesmængder, så tidsskriftet har en stabil tilstedeværelse i det akademiske miljø."
+
+msgid "plugins.generic.disco.regularity.periodicity"
+msgstr "Regelmæssig udgivelsesfrekvens"
+
+msgid "plugins.generic.disco.regularity.periodicity.description"
+msgstr "Tidsskriftet skal udgive efter en fast plan uden forsinkelser eller afbrydelser. <p>REDALYC: Numre skal udgives til tiden i henhold til udgivelsesplanen (månedligt, hver anden måned, kvartalsvis). For periodiske tidsskrifter er det en ulempe, hvis der går mere end tre måneder uden nye artikler online.</p>"
+
+msgid "plugins.generic.disco.regularity.publishingHistory"
+msgstr "Udgivelseshistorik"
+
+msgid "plugins.generic.disco.regularity.publishingHistory.description"
+msgstr "DOAJ: Tidsskriftet skal kunne dokumentere en udgivelseshistorik på mere end ét år eller have publiceret mindst ti Open Access-forskningsartikler.<p>ERIH Plus: Har tidsskriftet en udgivelseshistorik på mindst to år?</p><p>PubMed: NLM forventer, at udgivere har mindst to års historik med videnskabelig udgivelse af høj kvalitet inden for life science. / Mindst 25 fagfællebedømte artikler (fx originale forsknings- eller oversigtsartikler, kliniske casebeskrivelser) skal være publiceret i endelig form.</p><p>Redalyc: Tidsskriftet skal have været aktivt i mindst to år. Numre udgivet i de seneste to år skal være synlige på tidsskriftets platform. Ved vurderingen indgår kun ordinære numre, der er udgivet til tiden.</p>"
+
+msgid "plugins.generic.disco.regularity.timeliness"
+msgstr "Rettidighed og/eller udgivelsesmængde"
+
+msgid "plugins.generic.disco.regularity.timeliness.description"
+msgstr "Tidsskriftet skal oplyse, om det har en fast udgivelsesfrekvens eller udgiver uregelmæssigt eller løbende. Tidsskriftet skal overholde den angivne plan. Antallet af videnskabelige artikler, der udgives årligt, bør vise, at tidsskriftet tiltrækker tilstrækkelig interesse fra det relevante faglige miljø til at være bæredygtigt. Tidsskriftet skal også have publiceret nok indhold på tværs af hele sit fagområde til, at der kan foretages en fyldestgørende vurdering."
+
+msgid "plugins.generic.disco.generalRecommendations"
+msgstr "Generelle anbefalinger"
+
+msgid "plugins.generic.disco.generalRecommendations.description"
+msgstr "Denne kategori fremhæver god praksis for at drive et tidsskrift af høj kvalitet. Den omfatter et klart sprog, overholdelse af faglige standarder, korrekte oplysninger, gennemsigtighed om bevillinger, brug af pålidelige interne systemer (fx OJS, Lodel) og plagiatkontrol for at sikre videnskabelig integritet."
+
+msgid "plugins.generic.disco.generalRecommendations.accesibility"
+msgstr ""
+
+msgid "plugins.generic.disco.generalRecommendations.accesibility.description"
+msgstr ""
+
+msgid "plugins.generic.disco.generalRecommendations.clarityOfLanguage"
+msgstr "Klart sprog"
+
+msgid "plugins.generic.disco.generalRecommendations.clarityOfLanguage.description"
+msgstr "Titler, resuméer og al anden publiceret tekst på engelsk skal være skrevet i et klart sprog, der er forståeligt for et internationalt publikum."
+
+msgid "plugins.generic.disco.generalRecommendations.communityStandardsAdherence"
+msgstr "Overholdelse af faglige standarder"
+
+msgid "plugins.generic.disco.generalRecommendations.communityStandardsAdherence.description"
+msgstr "De redaktionelle politikker er i overensstemmelse med anerkendt god praksis, fx COPE Core Practices, og/eller nationale og internationale organisationer og videnskabelige selskaber, der fremmer principper for forskningsintegritet i deres fagmiljøer. Tidsskriftets artikler følger anerkendt god praksis inden for deres fagområde (fx accepterede standarder for nomenklatur for organismer eller kemiske stoffer)."
+
+msgid "plugins.generic.disco.generalRecommendations.grantSupportDetails"
+msgstr "Oplysninger om bevillinger"
+
+msgid "plugins.generic.disco.generalRecommendations.grantSupportDetails.description"
+msgstr "Inden for fagområder, hvor bevillinger er almindelige eller påkrævede, anbefales det at angive finansieringskilden."
+
+msgid "plugins.generic.disco.generalRecommendations.statementsValidity"
+msgstr "Korrekte oplysninger"
+
+msgid "plugins.generic.disco.generalRecommendations.statementsValidity.description"
+msgstr "Det publicerede indhold bør vise, at tidsskriftet følger de politikker, det har erklæret. Alle oplysninger på tidsskriftets hjemmeside bør være korrekte og opdaterede."
+
+msgid "plugins.generic.disco.generalRecommendations.internalSystemInUse"
+msgstr "Internt system i brug (OJS / Lodel / ...)"
+
+msgid "plugins.generic.disco.generalRecommendations.internalSystemInUse.description"
+msgstr "Sikrer, at mange krav automatisk er opfyldt."
+
+msgid "plugins.generic.disco.generalRecommendations.plagiarismCheck"
+msgstr "Plagiatkontrol er indført"
+
+msgid "plugins.generic.disco.generalRecommendations.plagiarismCheck.description"
+msgstr "Brug af en tjeneste til plagiatkontrol anbefales stærkt, men er ikke et krav for optagelse i DOAJ eller andre tjenester."
+
+msgid "plugins.generic.disco.impactRecommendations"
+msgstr "Anbefalinger om gennemslagskraft"
+
+msgid "plugins.generic.disco.impactRecommendations.description"
+msgstr "Denne kategori handler om at styrke tidsskriftets akademiske indflydelse og omdømme. Den fremhæver den geografiske spredning blandt forfattere og redaktion, analyserer citationstal for både forfattere og redaktionsmedlemmer, vurderer, hvor meget tidsskriftets artikler citeres, og understreger betydningen af indholdets faglige bidrag til feltet."
+
+msgid "plugins.generic.disco.impactRecommendations.authorsDiversity"
+msgstr "Geografisk spredning blandt forfatterne"
+
+msgid "plugins.generic.disco.impactRecommendations.authorsDiversity.description"
+msgstr "Forfatternes tilknytninger, geografiske spredning og publikationshistorik skal bekræfte, at de er en del af det faglige miljø, der svarer til tidsskriftets angivne fagområde.<p>DOAJ: Andelen af publicerede forskningsartikler, hvor mindst én af forfatterne er redaktør, redaktionsmedlem eller bedømmer, må ikke overstige 25 % i nogen af de to seneste numre.</p><p>ERIH PLUS kræver, at højst to tredjedele af de forfattere, der publiceres i tidsskriftet, kommer fra samme institution. Forfatterskabet vurderes ud fra de seneste to års udgivelser.</p><p>REDALYC: Mindst 70 % af alle videnskabelige værker i hvert nummer skal være bidrag udefra, dvs. fra uden for den udgivende institution (med mindst én ekstern forfatter).</p><p>Endogami bør minimeres.</p>"
+
+msgid "plugins.generic.disco.impactRecommendations.citedAuthors"
+msgstr "Citationsanalyse af forfattere"
+
+msgid "plugins.generic.disco.impactRecommendations.citedAuthors.description"
+msgstr "De fleste forfattere bør have en synlig publikationshistorik i Web of Science. Forfatternes citationsnetværk bør passe til kategorien og til tidsskrifter med et tilsvarende fagområde."
+
+msgid "plugins.generic.disco.impactRecommendations.citedEditorialBoard"
+msgstr "Citationsanalyse af redaktionen"
+
+msgid "plugins.generic.disco.impactRecommendations.citedEditorialBoard.description"
+msgstr "De fleste redaktionsmedlemmer bør have en synlig publikationshistorik i Web of Science. Redaktionsmedlemmernes citationsnetværk bør passe til kategorien og til tidsskrifter med et tilsvarende fagområde."
+
+msgid "plugins.generic.disco.impactRecommendations.citedness"
+msgstr "Hvor meget tidsskriftets artikler citeres"
+
+msgid "plugins.generic.disco.impactRecommendations.citedness.description"
+msgstr "<p>De fleste selektive indekser omfatter de tidsskrifter, der har størst gennemslagskraft inden for en given disciplin.</p><p>Sammenlignende citationsanalyse tager højde for både antallet af citationer, et tidsskrift modtager, og hvor citationerne kommer fra. Den ser også på, hvor stabil citationsaktiviteten er over tid, så den afspejler ikke kun tidsskriftets indflydelse i et bestemt år, men også om indflydelsen er vedvarende.</p>"
+
+msgid "plugins.generic.disco.impactRecommendations.contentSignificance"
+msgstr "Indholdets betydning / fagligt bidrag til feltet"
+
+msgid "plugins.generic.disco.impactRecommendations.contentSignificance.description"
+msgstr "Tidsskriftets indhold bør være interessant, vigtigt og værdifuldt for den tiltænkte læserskare og for Web of Science-abonnenter. Indholdets betydning kan vise sig som en unik specialisering, et nyt perspektiv, et regionalt fokus, usædvanligt indhold eller indhold, der udvider bredden i Web of Science' dækning. Disse egenskaber afspejles ikke nødvendigvis i citationsaktiviteten på tidsskriftsniveau."
+
+msgid "plugins.generic.disco.impactRecommendations.editorsDiversity"
+msgstr "Geografisk spredning i redaktionen"
+
+msgid "plugins.generic.disco.impactRecommendations.editorsDiversity.description"
+msgstr "Redaktørers og redaktionsmedlemmers tilknytninger, geografiske spredning og publikationshistorik skal stemme overens med tidsskriftets angivne fagområde og publicerede indhold. Redaktionens størrelse og sammensætning skal passe til omfanget og bredden af tidsskriftets udgivelser. Der tages behørigt hensyn til tidsskrifter, der har fuldtidsansatte professionelle redaktører."
+
+msgid "plugins.generic.disco.seo"
+msgstr "SEO"
+
+msgid "plugins.generic.disco.seo.description"
+msgstr "SEO (søgemaskineoptimering) er arbejdet med at optimere en hjemmeside eller onlineindhold, så det bliver mere synligt i søgemaskinernes resultatsider (SERP'er). Målet er at tiltrække organisk (ikke-betalt) trafik ved at sikre, at sitet rangerer højere på relevante søgeord og fraser. SEO omfatter forskellige strategier, bl.a. optimering af elementer på siden som indhold, metatags og overskrifter, forbedring af tekniske forhold som hastighed, mobilvenlighed og strukturerede data samt opbygning af backlinks af høj kvalitet for at øge autoriteten. God SEO forbedrer ikke kun placeringen i søgeresultaterne, men også brugeroplevelsen, hvilket giver flere engagerede besøgende.<p>SEO for begyndere (på engelsk): <a href='https://www.elegantthemes.com/blog/marketing/what-is-seo' target='_blank'>https://www.elegantthemes.com/blog/marketing/what-is-seo</a></p>"
+
+msgid "plugins.generic.disco.seo.accurateTitles"
+msgstr "Præcise sidetitler"
+
+msgid "plugins.generic.disco.seo.accurateTitles.description"
+msgstr "Sidetitler bør præcist afspejle dokumenternes indhold. Klare titler, der matcher indholdet, forbedrer synligheden i søgeresultaterne og øger sandsynligheden for, at brugerne klikker."
+
+msgid "plugins.generic.disco.seo.altTextImages"
+msgstr "ALT-tekst til billeder"
+
+msgid "plugins.generic.disco.seo.altTextImages.description"
+msgstr "ALT-tekst gør billedindhold på websider lettere at finde og forbedrer tilgængeligheden for brugere, der benytter tekstbaserede browsere eller hjælpemidler."
+
+msgid "plugins.generic.disco.seo.covers"
+msgstr "Omslag for numre / tidsskrift"
+
+msgid "plugins.generic.disco.seo.covers.description"
+msgstr "Understøt visuel søgning ved at gøre det muligt at finde tidsskriftet via billedsøgning i søgemaskiner."
+
+msgid "plugins.generic.disco.seo.crosslinks"
+msgstr "Meningsfulde krydslinks"
+
+msgid "plugins.generic.disco.seo.crosslinks.description"
+msgstr "Meningsfulde krydslinks mellem tidsskriftets hjemmeside og relaterede hjemmesider eller indholdsudbydere giver brugerne merværdi og bidrager til en bedre placering i søgemaskinerne."
+
+msgid "plugins.generic.disco.seo.h1Title"
+msgstr "Tidsskriftets titel i H1"
+
+msgid "plugins.generic.disco.seo.h1Title.description"
+msgstr "Brug af &lt;h1&gt;-tagget til tidsskriftets titel hjælper søgemaskinerne med at fortolke og indeksere sidens hovedtitel korrekt."
+
+msgid "plugins.generic.disco.seo.keyTerms"
+msgstr "Nøgleord i metatags"
+
+msgid "plugins.generic.disco.seo.keyTerms.description"
+msgstr "Når du bruger de ord, målgruppen typisk søger efter, matcher indholdet bedre brugernes søgninger, og synligheden i søgeresultaterne øges."
+
+msgid "plugins.generic.disco.seo.noTextInImages"
+msgstr "Undgå tekst i billeder"
+
+msgid "plugins.generic.disco.seo.noTextInImages.description"
+msgstr "Vigtig tekst og vigtige links bør være i HTML-format, så søgemaskinerne kan se dem. Tekst i billeder eller image maps bliver ikke nødvendigvis indekseret korrekt."
+
+msgid "plugins.generic.disco.seo.pageLoadingTime"
+msgstr "Sidens indlæsningstid"
+
+msgid "plugins.generic.disco.seo.pageLoadingTime.description"
+msgstr "Hurtigere indlæsning bidrager væsentligt til søgemaskineoptimering (SEO), fordi det forbedrer brugeroplevelsen, som er en vigtig faktor i søgemaskinernes rangeringsalgoritmer."
+
+msgid "plugins.generic.disco.seo.readableURLs"
+msgstr "Læsbare URL'er"
+
+msgid "plugins.generic.disco.seo.readableURLs.description"
+msgstr "URL'er, der afspejler sidens struktur og indhold – frem for numeriske eller tvetydige formater – er lettere at forstå for både brugere og søgemaskiner."
+
+msgid "plugins.generic.disco.seo.robotsFile"
+msgstr "Robots.txt-fil"
+
+msgid "plugins.generic.disco.seo.robotsFile.description"
+msgstr "Fortæller søgemaskinernes crawlere, hvordan de skal tilgå og indeksere hjemmesiden. Opret en robots.txt-fil til søgemaskinerne.<p> <a href='https://developers.google.com/search/docs/crawling-indexing/robots/intro' target='_blank'>Introduktion til robots.txt-filen.</a></p>"
+
+msgid "plugins.generic.disco.seo.robotsMetadata"
+msgstr "Robots-metadata"
+
+msgid "plugins.generic.disco.seo.robotsMetadata.description"
+msgstr "En velformuleret metabeskrivelse øger synligheden i søgeresultaterne og sandsynligheden for, at brugerne klikker. Beskrivelsen bør passe til dokumentets titel og præcist afspejle indholdet."
+
+msgid "plugins.generic.disco.seo.seoCompliant"
+msgstr "Tjek din sides SEO"
+
+msgid "plugins.generic.disco.seo.seoCompliant.description"
+msgstr "<p>Du kan tjekke din SEO med mange onlinetjenester. For eksempel:</p><ul><li><a href='https://www.seobility.net/en/seocheck/' target='_blank'>https://www.seobility.net/en/seocheck/</a></li><li><a href='https://www.seotesteronline.com/' target='_blank'>https://www.seotesteronline.com/</a></li><li><a href='https://seositecheckup.com/' target='_blank'>https://seositecheckup.com/</a></li></ul>"
+
+msgid "plugins.generic.disco.seo.sitemapAvailable"
+msgstr "Sitemap"
+
+msgid "plugins.generic.disco.seo.sitemapAvailable.description"
+msgstr "Tilføj et sitemap, og link til det fra din forside, så alle dine sider bliver crawlet."
+
+msgid "plugins.generic.disco.seo.submitSitemap"
+msgstr "Indsend dit sitemap til flere søgemaskiner"
+
+msgid "plugins.generic.disco.seo.submitSitemap.description"
+msgstr "Søgemaskiner som Google og Bing gør det muligt at indsende sitemaps via særlige værktøjer: <p><a href='https://www.elegantthemes.com/blog/marketing/google-search-console' target='_blank'>Læs mere om Google Search Console</a></p><p><a href='https://www.elegantthemes.com/blog/wordpress/how-to-submit-your-xml-sitemap-to-bing-webmaster-tools' target='_blank'>Læs mere om Bing Webmaster Tools</a></p>"
+
+msgid "plugins.generic.disco.seo.unhideJScontent"
+msgstr "Gør indhold bag JavaScript synligt"
+
+msgid "plugins.generic.disco.seo.unhideJScontent.description"
+msgstr "Indhold, der kun vises via JavaScript, bør gøres tilgængeligt for brugeragenter og crawlere uden JavaScript ved hjælp af &lt;noscript&gt;-HTML-elementer."
+
+msgid "plugins.generic.disco.results"
+msgstr "Resultater"
+
+msgid "plugins.generic.disco.ccLicence.autocheck"
+msgstr "OJS-tjek: CC-licensen er sat op."
+
+msgid "plugins.generic.disco.publishingMode.autocheck"
+msgstr "OJS-tjek: Publiceringsformen er sat til Open Access."
+
+msgid "plugins.generic.disco.onlineIssn.autocheck"
+msgstr "OJS-tjek: Online-ISSN er udfyldt."
+
+msgid "plugins.generic.disco.enabled.autocheck"
+msgstr "OJS-tjek: Tidsskriftet er aktiveret, så det vises offentligt på sitet"
+
+msgid "plugins.generic.disco.journalTitle.autocheck"
+msgstr "OJS-tjek: Tidsskriftets titel er sat op."
+
+msgid "plugins.generic.disco.authorGuidelinesDescribed.autocheck"
+msgstr "OJS-tjek: Feltet Retningslinjer for forfattere er udfyldt."
+
+msgid "plugins.generic.disco.editorialBoardPage.autocheck"
+msgstr "OJS-tjek: Redaktion er udfyldt."
+
+msgid "plugins.generic.disco.contactName.autocheck"
+msgstr "OJS-tjek: Kontaktpersonens navn er sat op."
+
+msgid "plugins.generic.disco.contactEmail.autocheck"
+msgstr "OJS-tjek: Kontakt-e-mail er sat op."
+
+msgid "plugins.generic.disco.mailingAddress.autocheck"
+msgstr "OJS-tjek: Postadresse er sat op."
+
+msgid "plugins.generic.disco.journalPublisherNameAvailable.autocheck"
+msgstr "OJS-tjek: Udgiverens navn er sat op."
+
+msgid "plugins.generic.disco.dublinCore.autocheck"
+msgstr "OJS-tjek: Dublin Core Meta-pluginet er aktiveret."
+
+msgid "plugins.generic.disco.googleSchoolar.autocheck"
+msgstr "OJS-tjek: Google Scholar-pluginet er aktiveret."
+
+msgid "plugins.generic.disco.oaiPMHEnabled.autocheck"
+msgstr "OJS-tjek: OAI-PMH er aktiveret."
+
+msgid "plugins.generic.disco.usingDOIs.autocheck"
+msgstr "OJS-tjek: DOI'er er aktiveret for tidsskriftet."
+
+msgid "plugins.generic.disco.metadataFormatOpenAIRE.autocheck"
+msgstr "OJS-tjek: OpenAIRE Standard-pluginet er aktiveret."
+
+msgid "plugins.generic.disco.publisher.autocheck"
+msgstr "OJS-tjek: Udgiverens navn er udfyldt."
+
+msgid "plugins.generic.disco.noRegistrationNeed.autocheck"
+msgstr "OJS-tjek: Læsere behøver ikke at registrere sig"
+
+msgid "plugins.generic.disco.copyrightTerms.autocheck"
+msgstr "OJS-tjek: Oplysninger om copyright for forfattere er udfyldt."
+
+msgid "plugins.generic.disco.noEmbargoPeriod.autocheck"
+msgstr "OJS-tjek: Der er ingen embargoindstillinger i publiceringsformen."
+
+msgid "plugins.generic.disco.plagiarismCheck.autocheck"
+msgstr "OJS-tjek: Plagiat-pluginet er aktiveret."
+
+msgid "plugins.generic.disco.knowledgeBase.base"
+msgstr "BASE"
+
+msgid "plugins.generic.disco.knowledgeBase.base.description"
+msgstr "BASE indekserer metadata for alle typer akademisk relevante ressourcer – fx tidsskrifter, institutionelle repositorier og digitale samlinger – der har en OAI-grænseflade og bruger OAI-PMH-protokollen til at dele deres indhold."
+
+msgid "plugins.generic.disco.knowledgeBase.base.application"
+msgstr "Bliv indholdsleverandør"
+
+msgid "plugins.generic.disco.knowledgeBase.ceeol"
+msgstr "CEEOL"
+
+msgid "plugins.generic.disco.knowledgeBase.ceeol.description"
+msgstr "Central and Eastern European Online Library (CEEOL) er et repositorie med indekserede fuldtekstdokumenter, der dækker humanistiske og samfundsvidenskabelige publikationer fra og om Central- og Østeuropa.<p><strong>Optagelsesproces</strong></p><p>Udfyldelse af den digitale ansøgningsformular og vurdering foretaget af CEEOL's supportteam for udgivere.</p>"
+
+msgid "plugins.generic.disco.knowledgeBase.ceeol.application"
+msgstr "Indstil til optagelse"
+
+msgid "plugins.generic.disco.knowledgeBase.core"
+msgstr "CORE"
+
+msgid "plugins.generic.disco.knowledgeBase.core.description"
+msgstr "CORE (COnnecting REpositories) er en omfattende bibliografisk database over verdens videnskabelige litteratur, som indsamler og indekserer forskning fra repositorier og tidsskrifter. Det er også verdens største samling af Open Access-forskningsartikler i fuldtekst. <p><strong>Optagelsesproces</strong></p><p>Automatisk høst fra en liste over aggregatorer: <a href='https://core.ac.uk/data-providers/?q=&size=10' target='_blank'>https://core.ac.uk/data-providers/?q=&size=10</a><br />Mulighed for at registrere en ny dataleverandør ved at udfylde en formular: <a target='_blank' href='https://core.ac.uk/benefits#join-core'>https://core.ac.uk/benefits#join-core</a></p>"
+
+msgid "plugins.generic.disco.knowledgeBase.core.application"
+msgstr "Bliv dataleverandør til CORE"
+
+msgid "plugins.generic.disco.knowledgeBase.crossref"
+msgstr "Crossref"
+
+msgid "plugins.generic.disco.knowledgeBase.crossref.description"
+msgstr "Crossref er en medlemsorganisation med 19.000 medlemmer fra kommerciel og institutionel udgivelse. Crossrefs hovedtjeneste er at sammenkæde citerende og citerede publikationer. Deltagende udgivere registrerer Crossref-DOI'er og indsender metadata om deres egne publikationer.<p><strong>Optagelsesproces</strong></p><p>Medlemskab er påkrævet for at blive registreret hos Crossref. Medlemskab er åbent for både udgivere og tjenesteudbydere.<br />Medlemmer kan derefter tildele Crossref-DOI'er til deres indhold. Måden, DOI'er genereres på, kan variere mellem tjenester – fx automatisk eller efter behov og for alt indhold eller kun bestemte typer.</p>"
+
+msgid "plugins.generic.disco.knowledgeBase.crossref.application"
+msgstr "Bliv medlem"
+
+msgid "plugins.generic.disco.knowledgeBase.ebsco"
+msgstr "EBSCO"
+
+msgid "plugins.generic.disco.knowledgeBase.ebsco.description"
+msgstr "EBSCO leverer forskningsdatabaser, e-tidsskrifter, e-bøger og værktøjer til biblioteksadministration til institutioner over hele verden. Tjenesterne omfatter bl.a. EBSCOHost (adgang til fuldtekst), EBSCO Discovery Service (bibliografiske oplysninger) samt andre som AtoZ og Academic Search Ultimate. EBSCO arbejder primært med biblioteker og universiteter, men også direkte med udgivere af tidsskrifter og e-bøger.<p><strong>Optagelsesproces</strong></p><p>Udgivere kontakter først EBSCO Publishers Operation-teamet for at høre om betingelserne og processen for indeksering: <a target='_blank' href='https://www.ebsco.com/publishers-partnerships/journal-subscription-services/support'>https://www.ebsco.com/publishers-partnerships/journal-subscription-services/support</a>.</p><p>Første anmodning om indeksering sker via en webformular: <a target='_blank' href='https://www.ebsco.com/publishers-partnerships/full-text-licensed-databases-contact-form'>https://www.ebsco.com/publishers-partnerships/full-text-licensed-databases-contact-form</a></p>"
+
+msgid "plugins.generic.disco.knowledgeBase.ebsco.application"
+msgstr "Indstil til optagelse"
+
+msgid "plugins.generic.disco.knowledgeBase.semanticscholar"
+msgstr "Semantic Scholar"
+
+msgid "plugins.generic.disco.knowledgeBase.semanticscholar.description"
+msgstr "Semantic Scholar tilbyder gratis, AI-drevne søge- og opdagelsesværktøjer samt åbne ressourcer til det globale forskningsmiljø. Tjenesten indekserer over 200 millioner videnskabelige artikler fra udgiverpartnerskaber, dataleverandører og webcrawling. AI-funktioner muliggør analyse af resuméer og citationer.<p><strong>Optagelsesproces</strong></p><p>Semantic Scholar samarbejder primært med store udgivere og repositorier.<br />Indekseringen er fuldt automatiseret og sker ud fra en liste over akademiske udgivere, dataleverandører og aggregatorer.<br />Forfattere kan anmode om at få tilføjet artikler ved at følge denne vejledning: <a target='_blank' href='https://www.semanticscholar.org/faq/add-papers-author-page'>https://www.semanticscholar.org/faq/add-papers-author-page</a></p>"
+
+msgid "plugins.generic.disco.knowledgeBase.doaj"
+msgstr "DOAJ"
+
+msgid "plugins.generic.disco.knowledgeBase.doaj.description"
+msgstr "En fællesskabskurateret liste over fagfællebedømte Open Access-tidsskrifter, som vedligeholdes af Infrastructure Services for Open Access (IS4OA). DOAJ muliggør også indsamling og visning af artikelmetadata samt fri distribution af metadata om tidsskrifter og artikler. <p><strong>Optagelsesproces</strong></p><p>Udgivere skal registrere sig og udfylde en digital ansøgningsformular: <a target='_blank' href='https://doaj.org/account/login?redirected=apply'>https://doaj.org/account/login?redirected=apply</a><br />Optagelse kræver, at en række redaktionelle og tekniske krav er opfyldt.</p>"
+
+msgid "plugins.generic.disco.knowledgeBase.doaj.application"
+msgstr "Indstil til optagelse"
+
+msgid "plugins.generic.disco.knowledgeBase.erihplus"
+msgstr "ERIH+"
+
+msgid "plugins.generic.disco.knowledgeBase.erihplus.description"
+msgstr "ERIH+ er et onlineindeks over kvalitetstidsskrifter inden for samfundsvidenskab og humaniora i hele Europa, som fremmer åbenhed og god redaktionel praksis. Indekset angiver tidsskrifternes Open Access-status og overholdelse af Plan S. ERIH+ indekserer også artikler med DOI'er fra Dimensions-databasen, som dækker over 140 millioner publikationer.<p><strong>Optagelsesproces</strong></p><p>Nye tidsskrifter skal indsendes efter oprettelse af en brugerkonto: <a target='_blank' href='https://kanalregister.hkdir.no/publiseringskanaler/erihplus/login.action'>https://kanalregister.hkdir.no/publiseringskanaler/erihplus/login.action</a><br />ERIH+ vurderer ikke tidsskrifter, der indsendes af udgivere, redaktionsmedlemmer eller andre med tilknytning til tidsskriftet.</p>"
+
+msgid "plugins.generic.disco.knowledgeBase.erihplus.application"
+msgstr "Indstil til optagelse"
+
+msgid "plugins.generic.disco.knowledgeBase.gotriple"
+msgstr "GoTriple"
+
+msgid "plugins.generic.disco.knowledgeBase.gotriple.description"
+msgstr "GoTriple giver et samlet adgangspunkt til at finde og genbruge forskningsresultater, der er relevante for humaniora og samfundsvidenskab (SSH). <p><strong>Optagelsesproces</strong></p><p>Hvis publikationerne ikke allerede findes i GoTriples datakilder, er den primære mulighed at registrere en ny datakilde via den dedikerede grænseflade: <a target='_blank' href='https://pipeline.gotriple.eu/user/login?destination=/'>https://pipeline.gotriple.eu/user/login?destination=/</a></p>"
+
+msgid "plugins.generic.disco.knowledgeBase.gotriple.application"
+msgstr "Bliv indholdsleverandør"
+
+msgid "plugins.generic.disco.knowledgeBase.gs"
+msgstr "Google Scholar"
+
+msgid "plugins.generic.disco.knowledgeBase.gs.description"
+msgstr "Søgbart bibliografisk indeks, der viser fuldtekst og metadata for videnskabelig litteratur på tværs af mange publikationsformater og discipliner.<p><strong>Optagelsesproces</strong></p><p>Google Scholar bruger automatiseret software, såkaldte \"robotter\" eller \"crawlere\", til at hente filer, der skal med i søgeresultaterne. Tidsskriftets hjemmeside skal være opbygget, så den kan \"crawles\" på denne måde. De automatiske crawlere skal kunne finde og hente URL'erne for alle artikler og jævnligt opdatere deres indhold fra tidsskriftets hjemmeside.</p>"
+
+msgid "plugins.generic.disco.knowledgeBase.openaire"
+msgstr "OpenAIRE Graph"
+
+msgid "plugins.generic.disco.knowledgeBase.openaire.description"
+msgstr "OpenAIRE Graph er en åben ressource, der samler forskningsdata (metadata, links) fra OpenAIRE's Open Science-infrastruktur til brug for finansieringskilder, organisationer, forskere, forskningsmiljøer og udgivere. Den stilles til rådighed som datasæt publiceret på Zenodo og kan gennemsøges via OpenAIRE EXPLORE.<p><strong>Optagelsesproces</strong></p><p>Hvis publikationerne ikke allerede findes i OpenAIRE's datakilder (se den fulde liste her: <a target='_blank' href='https://explore.openaire.eu/search/find/dataproviders'>https://explore.openaire.eu/search/find/dataproviders</a>), er den primære mulighed at registrere datakilden via OpenAIRE PROVIDE (<a target='_blank' href='https://provide.openaire.eu/'>https://provide.openaire.eu/</a>). Datakilden skal overholde OpenAIRE's retningslinjer (<a target='_blank' href='https://guidelines.openaire.eu/'>https://guidelines.openaire.eu/</a>).</p>"
+
+msgid "plugins.generic.disco.knowledgeBase.openaire.application"
+msgstr "Indstil til optagelse"
+
+msgid "plugins.generic.disco.knowledgeBase.openalex"
+msgstr "OpenAlex"
+
+msgid "plugins.generic.disco.knowledgeBase.openalex.description"
+msgstr "Åbent katalog over videnskabelige værker (tidsskriftsartikler, konferencebidrag, bøger og bogkapitler, datasæt og afhandlinger), forfattere og institutioner. Kataloget indeholder forbindelser mellem værkerne og finder sammenhænge via fx tidsskrifter, forfattere, institutionelle tilknytninger, citationer, begreber og finansieringskilder.<p><strong>Optagelsesproces</strong></p><p>OpenAlex indekserer automatisk nye tidsskrifter og artikler, primært ved at hente poster fra Crossref, men også fra DOAJ og andre kilder.</p>"
+
+msgid "plugins.generic.disco.knowledgeBase.pubmed"
+msgstr "PubMed"
+
+msgid "plugins.generic.disco.knowledgeBase.pubmed.description"
+msgstr "PubMed er en gratis ressource til søgning og fremfinding af biomedicinsk og naturvidenskabelig litteratur med det formål at forbedre sundheden – både globalt og for den enkelte. PubMed-databasen indeholder mere end 37 millioner referencer og resuméer af biomedicinsk litteratur. Den indeholder ikke tidsskriftsartikler i fuldtekst, men der er ofte links til fuldteksten, når den er tilgængelig fra andre kilder, fx udgiverens hjemmeside eller PubMed Central (PMC).<p><strong>Optagelsesproces</strong></p><p>Udfyldelse af en ansøgningsformular om optagelse af tidsskriftet efter registrering på platformen. (<a target='_blank' href='https://www.ncbi.nlm.nih.gov/medline/publisherportal/'>https://www.ncbi.nlm.nih.gov/medline/publisherportal/</a>)<br />Tidsskrifter skal bestå både en videnskabelig kvalitetsvurdering og et tjek af tekniske krav og indekseringskrav for at blive indekseret (mere information i kriteriedokumentationen: <a target='_blank' href='https://www.nlm.nih.gov/medline/medline_how_to_include.html#scientificquality'>https://www.nlm.nih.gov/medline/medline_how_to_include.html#scientificquality</a>.)</p>"
+
+msgid "plugins.generic.disco.knowledgeBase.pubmed.application"
+msgstr "Indstil til optagelse"
+
+msgid "plugins.generic.disco.knowledgeBase.scopus"
+msgstr "Scopus"
+
+msgid "plugins.generic.disco.knowledgeBase.scopus.description"
+msgstr "Scopus er en database med resuméer og citationer, der dækker fagfællebedømt litteratur inden for life science, samfundsvidenskab, naturvidenskab og sundhedsvidenskab. Den indekserer bogserier, tidsskrifter og fagblade og gør det også muligt at søge i patenter via Lexis-Nexis-databasen.<p><strong>Optagelsesproces</strong></p><p>Ansøgningsformular om optagelse af tidsskriftet til CSAB (Content Selection and Advisory Board): <a target='_blank' href='https://suggestor.step.scopus.com/suggestTitle/step1.cfm'>https://suggestor.step.scopus.com/suggestTitle/step1.cfm</a> samt opfyldelse af en række redaktionelle og tekniske krav.</p>"
+
+msgid "plugins.generic.disco.knowledgeBase.scopus.application"
+msgstr "Indstil til optagelse"
+
+msgid "plugins.generic.disco.knowledgeBase.wos"
+msgstr "Web of Science (WoS)"
+
+msgid "plugins.generic.disco.knowledgeBase.wos.description"
+msgstr "Web of Science (WoS) er en abonnementsbaseret platform med adgang til databaser med reference- og citationsdata fra videnskabelige tidsskrifter, konferenceproceedings og andre videnskabelige kilder på tværs af discipliner.<p><strong>Optagelsesproces</strong></p><p>Adgang sker via en proces i to trin, som er beskrevet her: <a target='_blank' href='https://clarivate.com/products/scientific-and-academic-research/research-publishing-solutions/publisher-portal/newusers/'>https://clarivate.com/products/scientific-and-academic-research/research-publishing-solutions/publisher-portal/newusers/</a><br /> Trin 1: Opret en brugerkonto med din institutionelle e-mailadresse: <a target='_blank' href='https://access.clarivate.com/register?app=wpp&referrer=%2Fwpp%2Fhom'>https://access.clarivate.com/register?app=wpp&referrer=%2Fwpp%2Fhom</a><br />Trin 2: Anmod om adgang til udgiverportalen: <a target='_blank' href='https://support.clarivate.com/ScientificandAcademicResearch/s/publisher-portal-access-request?language=en_US'>https://support.clarivate.com/ScientificandAcademicResearch/s/publisher-portal-access-request?language=en_US</a></p>"
+
+msgid "plugins.generic.disco.knowledgeBase.wos.application"
+msgstr "Indstil til optagelse"
+
+msgid "plugins.generic.disco.knowledgeBase.google"
+msgstr "Søgemaskine: Google"
+
+msgid "plugins.generic.disco.knowledgeBase.google.description"
+msgstr "Google bruger automatiserede rangeringssystemer, der vurderer en lang række faktorer og signaler på tværs af hundredvis af milliarder websider og andet indhold i søgeindekset for at levere de mest relevante og nyttige resultater på en brøkdel af et sekund. Siden forklarer flere centrale rangeringssystemer, herunder kernesystemerne bag de generelle søgeresultater og systemer til specifikke rangeringsformål."
+
+msgid "plugins.generic.disco.knowledgeBase.yahoo"
+msgstr "Søgemaskine: Yahoo! Search"
+
+msgid "plugins.generic.disco.knowledgeBase.yahoo.description"
+msgstr "Yahoo! Search er en søgemaskine, der ejes og drives af Yahoo!, og som bruger Microsoft Bing til at levere resultaterne."
+
+msgid "plugins.generic.disco.knowledgeBase.bing"
+msgstr "Søgemaskine: Microsoft Bing"
+
+msgid "plugins.generic.disco.knowledgeBase.bing.description"
+msgstr "Microsoft Bing (også blot kaldet Bing) er Microsofts søgemaskine med søgning efter websider, billeder, video og kort."
+
+msgid "plugins.generic.disco.knowledgeBase.duckduckgo"
+msgstr "Søgemaskine: DuckDuckGo"
+
+msgid "plugins.generic.disco.knowledgeBase.duckduckgo.description"
+msgstr "DuckDuckGo er en privatlivsfokuseret søgemaskine, der ikke sporer brugerne og leverer upartiske søgeresultater. Kendskab til dens SEO-tilgang kan hjælpe med at gøre en hjemmeside mere synlig for privatlivsbevidste brugere."
+
+msgid "plugins.generic.disco.knowledgeBase.redalyc"
+msgstr "REDALYC"
+
+msgid "plugins.generic.disco.knowledgeBase.redalyc.description"
+msgstr "Redalyc er et indekseringssystem med Open Access-tidsskrifter af høj videnskabelig og redaktionel kvalitet. Efter 16 år med at skabe synlighed og støtte konsolideringen af tidsskrifter optager det nu udelukkende tidsskrifter – fra hele verden – der deler den almennyttige udgivelsesmodel, for at bevare den videnskabelige og åbne karakter af den videnskabelige kommunikation."
+
+msgid "plugins.generic.disco.knowledgeBase.redalyc.application"
+msgstr "Indstil til optagelse"
+
+msgid "plugins.generic.disco.knowledgeBase.ddh"
+msgstr "Diamond Discovery Hub"
+
+msgid "plugins.generic.disco.knowledgeBase.ddh.description"
+msgstr "Diamond Discovery Hub (DDH) er en af tjenesterne under European Diamond Capacity Hub (EDCH). Målet er at blive et samlet register over institutionelt udgivne og forskerdrevne Open Access-tidsskrifter uden forfattergebyrer i Europa for at øge synligheden af Diamond OA-tidsskrifter og gøre dem lettere at finde."
+
+msgid "plugins.generic.disco.knowledgeBase.ddh.application"
+msgstr "Indstil til optagelse"
+
+msgid "plugins.generic.disco.score"
+msgstr "Score"
+
+msgid "plugins.generic.disco.results.description"
+msgstr "Denne side viser scorer for de enkelte databaser, der stiller bestemte forudsætninger, før tidsskrifter kan søge om optagelse. Forudsætningerne bliver derefter vurderet nærmere. Da Discoverability Companion er et selvevalueringsværktøj, garanterer det ikke vurdering eller indeksering hos disse tjenester – det fungerer udelukkende som vejledning og videnressource. Siden viser også andre databaser, som måske ikke har formelle vurderingskriterier, men som stadig er værd at overveje."
+
+msgid "plugins.generic.disco.badges"
+msgstr "Badges"
+
+msgid "plugins.generic.disco.badges.description"
+msgstr ""
+
+msgid "plugins.generic.disco.badges.badgesAvailable"
+msgstr "Tillad, at badges vises i hjemmesidens sidefod."
+
+msgid "plugins.generic.disco.badges.badgesAvailable.description"
+msgstr "Badges vises i sidefoden på alle tidsskriftets sider."
+
+msgid "plugins.generic.disco.about.openToAllAuthors"
+msgstr "<h3>Åbent for alle forfattere:</h3><p>{$contextTitle} arbejder for åbenhed og inklusion i videnskabelig udgivelse uden gebyrer for forfattere, hverken for at læse eller publicere. Vi modtager gerne bidrag fra alle forfattere uanset institutionel tilknytning, geografisk placering eller akademisk status. Bidragene skal blot passe til tidsskriftets formål og fagområde og leve op til de krævede kvalitetsstandarder, når bedømmelsesprocessen er afsluttet.</p>"
+
+msgid "plugins.generic.disco.about.communityOwned"
+msgstr "<h3>Fællesskabsejet:</h3><p>{$contextTitle} ejes af {$publisherInstitution}, en {$organisationType} institution/organisation, der arbejder for at fremme forskning og videnskab. Tidsskriftets ejerskab og ledelsesstruktur afspejler dets mission om at støtte åben og tilgængelig akademisk udgivelse. Vi bekræfter, at eventuelle kommercielle tjenesteudbydere, der indgår i driften, udelukkende tager sig af de servicerelaterede dele af tidsskriftsudgivelsen. Alle indholdsmæssige forhold – såsom indsendelse, fagfællebedømmelse, antagelse, udgivelsesfrekvens og tidsskriftets fagområde – styres af redaktørerne/tidsskriftets ejere.</p>"
+
+msgid "plugins.generic.disco.badges.availableContent"
+msgstr "📖 Frit tilgængeligt indhold"
+
+msgid "plugins.generic.disco.badges.availableContent.description"
+msgstr "Tidsskriftets artikler og øvrige indhold er tilgængeligt for offentligheden uden begrænsninger eller betalingsmure."
+
+msgid "plugins.generic.disco.badges.communityOwned"
+msgstr "🌱 Fællesskabsejet"
+
+msgid "plugins.generic.disco.badges.communityOwned.description"
+msgstr "Tidsskriftet drives og ejes af et akademisk eller fagligt fællesskab frem for et kommercielt forlag."
+
+msgid "plugins.generic.disco.badges.diamondJournal"
+msgstr "💎 Diamond Open Access"
+
+msgid "plugins.generic.disco.badges.diamondJournal.description"
+msgstr "For at være et Diamond Open Access-tidsskrift skal dit tidsskrift opfylde 6 <a href='https://ddh.diamas.org/docs/diamond-journals/' target='_blank'>Diamant-kriterier</a>. "
+
+msgid "plugins.generic.disco.badges.doiUsed"
+msgstr "🔗 DOI tildelt"
+
+msgid "plugins.generic.disco.badges.doiUsed.description"
+msgstr "Artiklerne tildeles Digital Object Identifiers (DOI'er), som giver persistente links og gør dem nemme at citere."
+
+msgid "plugins.generic.disco.badges.geographicalDiversity"
+msgstr "🌍 Geografisk mangfoldighed"
+
+msgid "plugins.generic.disco.badges.geographicalDiversity.description"
+msgstr "Redaktionen og forfatterne kommer fra forskellige dele af verden, hvilket fremmer inklusion og internationalt samarbejde."
+
+msgid "plugins.generic.disco.badges.noApc"
+msgstr "🚫 Ingen forfattergebyrer"
+
+msgid "plugins.generic.disco.badges.noApc.description"
+msgstr "Forfattere skal ikke betale gebyrer for at publicere deres artikler i tidsskriftet."
+
+msgid "plugins.generic.disco.badges.openToAllAuthors"
+msgstr "✍️ Åbent for alle forfattere"
+
+msgid "plugins.generic.disco.badges.openToAllAuthors.description"
+msgstr "Tidsskriftet modtager bidrag fra alle forfattere uanset land, institutionel tilknytning eller status."
+
+msgid "plugins.generic.disco.badges.plagiarismCheckImplemented"
+msgstr "🔍 Plagiatkontrol"
+
+msgid "plugins.generic.disco.badges.plagiarismCheckImplemented.description"
+msgstr "Tidsskriftet bruger værktøjer til at opdage plagiat og sikrer, at de publicerede artikler er originale."
+
+msgid "plugins.generic.disco.badges.regularPeriodicity"
+msgstr "📅 Fast udgivelsesplan"
+
+msgid "plugins.generic.disco.badges.regularPeriodicity.description"
+msgstr "Tidsskriftet udgives efter en fast og forudsigelig plan, hvilket øger dets troværdighed."
+
+msgid "plugins.generic.disco.badges.scholarlyJournal"
+msgstr "🎓 Videnskabeligt tidsskrift"
+
+msgid "plugins.generic.disco.badges.scholarlyJournal.description"
+msgstr "Tidsskriftet lever op til standarderne for akademisk udgivelse og bidrager til udviklingen af sine fagområder."
+
+msgid "plugins.generic.disco.requirements"
+msgstr "Krav"
+
+msgid "plugins.generic.disco.serviceDescription"
+msgstr "Beskrivelse af tjenesten"
