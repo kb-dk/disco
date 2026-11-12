@@ -476,7 +476,7 @@ class DiscoPlugin extends GenericPlugin {
         $automaticChecks["metadataRequirements"] = array(
             "machineReadableMetadataFormat" => array("dublinCore" => $this->checkPlugin('generic', 'dublinCoreMeta', $contextId), "googleSchoolar" => $this->checkPlugin('generic', 'googleScholar', $contextId)),
             "oaiPMHEnabled" => array("oaiPMHEnabled" => $enableOai),
-            "usingDOIs" => array("usingDOIs" => $this->checkPlugin('pubIds', 'doi', $contextId)),
+            "usingDOIs" => array("usingDOIs" => (bool) $context->getData('enableDois')),
             "metadataFormatOpenAIRE" => array("metadataFormatOpenAIRE" => $this->checkPlugin('generic', 'openAIREstandard', $contextId)),
         );
 

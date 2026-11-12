@@ -75,7 +75,7 @@ msgid "plugins.generic.disco.settings.oai"
 msgstr "Distribution Settings->Access->Enable OAI"
 
 msgid "plugins.generic.disco.settings.pluginDOI"
-msgstr "Website Settings->Plugins->Public Identifier Plugins->DOI"
+msgstr "Settings->Distribution->DOIs->Setup->DOIs: \"Allow Digital Object Identifiers (DOIs) to be assigned to work published in this journal\""
 
 msgid "plugins.generic.disco.settings.pluginDC"
 msgstr "Website Settings->Plugins->Generic Plugins->Dublin Core Indexing Plugin"
@@ -874,7 +874,7 @@ msgid "plugins.generic.disco.oaiPMHEnabled.autocheck"
 msgstr "OJS check: The OAI PMH is enabled."
 
 msgid "plugins.generic.disco.usingDOIs.autocheck"
-msgstr "OJS check: The Public identifier DOI plugin is enabled."
+msgstr "OJS check: DOIs are enabled for the journal."
 
 msgid "plugins.generic.disco.metadataFormatOpenAIRE.autocheck"
 msgstr "OJS check: The OpenAIRE standard plugin is enabled."
