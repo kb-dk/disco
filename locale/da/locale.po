@@ -16,13 +16,13 @@ msgid "plugins.generic.disco.displayName"
 msgstr "Discoverability Companion-plugin"
 
 msgid "plugins.generic.disco.description"
-msgstr "Tjek dit tidsskrifts synlighed i forhold til kriterierne hos aggregatorer, indekseringsdatabaser og søgemaskiner."
+msgstr "Tjek dit tidsskrifts synlighed i forhold til kriterierne hos dataindsamlere, indekseringsdatabaser og søgemaskiner."
 
 msgid "plugin.generic.disco.page.title"
 msgstr "Beskrivelse af OJS Discoverability Companion-badges"
 
 msgid "plugin.generic.disco.page.description"
-msgstr "<p>Badges er en integreret del af OJS Discoverability Companion (DISCO-pluginet).</p><p>Discoverability Companion (DISCO) er et plugin, der hjælper redaktører af videnskabelige tidsskrifter med at øge deres tidsskrifts synlighed og troværdighed ved at guide dem gennem de tekniske og redaktionelle kriterier, som de store indekseringsdatabaser stiller. Pluginet samler disse krav – som ofte ligner hinanden, men beskrives forskelligt på tværs af platforme – i én overskuelig og brugervenlig grænseflade. Ved at tydeliggøre terminologien og vise overlappende standarder gør DISCO det lettere at leve op til kravene og understøtter bedre indekseringsresultater.</p><p>En central funktion i pluginet er et sæt badges, der vises i hjemmesidens sidefod. De signalerer over for læsere og bedømmere, at tidsskriftet lever op til anerkendte standarder for kvalitet, gennemsigtighed og åbenhed.</p>"
+msgstr "<p>Badges er en integreret del af OJS Discoverability Companion (DISCO-pluginet).</p><p>Discoverability Companion (DISCO) er et plugin, der hjælper redaktører af videnskabelige tidsskrifter med at øge deres tidsskrifts synlighed og troværdighed ved at guide dem gennem de tekniske og redaktionelle kriterier, som de store indekseringsdatabaser stiller. Pluginet samler disse krav, som ofte ligner hinanden, men beskrives forskelligt på tværs af platforme i én overskuelig og brugervenlig grænseflade. Ved at tydeliggøre terminologien og vise overlappende standarder gør DISCO det lettere at leve op til kravene og understøtter bedre indekseringsresultater.</p><p>En central funktion i pluginet er et sæt badges, der vises i hjemmesidens sidefod. De signalerer over for læsere og bedømmere, at tidsskriftet lever op til anerkendte standarder for kvalitet, gennemsigtighed og åbenhed.</p>"
 
 msgid "plugin.generic.disco.page.description.footer"
 msgstr "Hvis du gerne vil bruge DISCO-pluginet til dit tidsskrift, kan du downloade det fra <a href='https://github.com/munipress/disco' title='Github repository Disco Plugin' target='_blank'>GitHub</a> eller kontakte din platformsansvarlige."
@@ -40,7 +40,7 @@ msgid "plugins.generic.disco.settings"
 msgstr "Indstillinger i OJS"
 
 msgid "plugins.generic.disco.settings.about"
-msgstr "Tidsskriftsindstillinger->Kolofon->Beskrivelse->Om tidsskriftet"
+msgstr "Tidsskriftskonfiguration->Kolofon->Beskrivelse->Om tidsskriftet"
 
 msgid "plugins.generic.disco.settings.journalTitle"
 msgstr "Tidsskriftsindstillinger->Kolofon->Tidsskriftsidentitet->Titel på tidsskrift"
@@ -106,7 +106,7 @@ msgid "plugins.generic.disco.disco"
 msgstr "Discoverability Companion"
 
 msgid "plugins.generic.disco.description.long"
-msgstr "<p>Redaktører kan bruge Discoverability Companion-pluginet til at gennemgå centrale kriterier og få et samlet overblik over tidsskriftets synlighed.</p><p>Krav fra aggregatorer, indekseringsdatabaser og søgemaskiner er samlet i en række afsnit. Nogle kriterier tjekkes automatisk, andre kræver en hurtig manuel gennemgang via en enkel tjekliste, og nogle gives som anbefalinger.</p><p>Brug pluginet til at se, om dit tidsskrift kunne være mere synligt, og find ud af, hvad du kan gøre for at forbedre det.</p>"
+msgstr "<p>Redaktører kan bruge Discoverability Companion-pluginet til at gennemgå centrale kriterier og få et samlet overblik over tidsskriftets synlighed.</p><p>Krav fra dataindsamlere, indekseringsdatabaser og søgemaskiner er samlet i en række afsnit. Nogle kriterier tjekkes automatisk, andre kræver en hurtig manuel gennemgang via en enkel tjekliste, og nogle gives som anbefalinger.</p><p>Brug pluginet til at se, om dit tidsskrift kunne være mere synligt, og find ud af, hvad du kan gøre for at forbedre det.</p>"
 
 msgid "plugins.generic.disco.diamond.scholarlyJournal"
 msgstr "Videnskabeligt tidsskrift"
@@ -118,7 +118,7 @@ msgid "plugins.generic.disco.diamond"
 msgstr "Diamant-kriterier"
 
 msgid "plugins.generic.disco.diamond.description"
-msgstr "Diamond OA-kriterierne for tidsskrifter er et sæt <strong>operationelle kriterier</strong>, der muliggør en binær opdeling mellem Diamond OA-tidsskrifter (tidsskrifter, der opfylder alle kriterierne) og ikke-Diamond OA-tidsskrifter (tidsskrifter, der ikke opfylder alle kriterierne)<br />Nedenfor ses de 6 kriterier, som de er defineret af Craft-OA-taskforcen i samarbejde med fællesskabet<br /><br />"
+msgstr "Diamond OA-kriterierne for tidsskrifter er et sæt <strong>operationelle kriterier</strong>, der muliggør en opdeling mellem Diamond OA-tidsskrifter (tidsskrifter, der opfylder alle kriterierne) og ikke-Diamond OA-tidsskrifter (tidsskrifter, der ikke opfylder alle kriterierne)<br />Nedenfor ses de 6 kriterier, som de er defineret af Craft-OA-taskforcen i samarbejde med fællesskabet<br /><br />"
 
 msgid "plugins.generic.disco.diamond.openLicence"
 msgstr "Open Access med åbne licenser"
@@ -142,7 +142,7 @@ msgid "plugins.generic.disco.diamond.ownershipScience"
 msgstr "Fællesskabsejet"
 
 msgid "plugins.generic.disco.diamond.ownershipScience.description"
-msgstr "<p>Tidsskriftets titel skal ejes af offentlige eller almennyttige organisationer (eller dele heraf), hvis formål omfatter at udføre eller fremme forskning og videnskab. Det omfatter bl.a., men ikke udelukkende, forskningsudførende organisationer (RPO'er), forskningsfinansierende organisationer (RFO'er), organisationer med tilknytning til RPO'er (universitetsbiblioteker, universitetsforlag, fakulteter og institutter), forskningsinstitutter og videnskabelige selskaber. Tidsskriftet bør redegøre for sit ejerskab på sin hjemmeside.</p>"
+msgstr "<p>Tidsskriftets titel skal ejes af offentlige eller almennyttige organisationer (eller dele heraf), hvis formål omfatter at udføre eller fremme forskning og videnskab. Det omfatter bl.a., men ikke udelukkende, forskningsudførende organisationer, forskningsfinansierende organisationer, forsknignsinstitutioner, universitetsbiblioteker, universitetsforlag, forskningsinstitutter og videnskabelige selskaber. Tidsskriftet bør redegøre for sit ejerskab på sin hjemmeside.</p>"
 
 msgid "plugins.generic.disco.appearance"
 msgstr "Fremtoning"
@@ -187,10 +187,10 @@ msgid "plugins.generic.disco.appearance.metaInformationFilled.description"
 msgstr ""
 
 msgid "plugins.generic.disco.appearance.qualityEnHomepage"
-msgstr "Forside af god kvalitet på engelsk"
+msgstr "Forside af god kvalitet på dansk eller engelsk"
 
 msgid "plugins.generic.disco.appearance.qualityEnHomepage.description"
-msgstr "Tidsskriftet har en engelsksproget forside af god kvalitet"
+msgstr "Tidsskriftet har en dansk- eller engelsksproget forside af god kvalitet"
 
 msgid "plugins.generic.disco.journalDescription"
 msgstr "Beskrivelse af tidsskriftet"
@@ -208,7 +208,7 @@ msgid "plugins.generic.disco.journalDescription.authorGuidelinesDescribed"
 msgstr "Retningslinjerne for forfattere er godt beskrevet"
 
 msgid "plugins.generic.disco.journalDescription.authorGuidelinesDescribed.description"
-msgstr "Der bør være klare og fyldestgørende retningslinjer for forfattere, helst på engelsk."
+msgstr "Der bør være klare og fyldestgørende retningslinjer for forfattere."
 
 msgid "plugins.generic.disco.journalDescription.bibliographicInformation"
 msgstr "Bibliografiske oplysninger med latinske bogstaver"
